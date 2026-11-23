@@ -1,0 +1,3562 @@
+{
+  "schemaVersion": 8,
+  "games": [
+    {
+      "slug": "pool8",
+      "nameAr": "8 Ball Pool",
+      "nameEn": "8 Ball Pool",
+      "modeLabel": "تحديات 1v1 و 2v2",
+      "scoringSystem": "خروج المغلوب السريع",
+      "teamSize": 1,
+      "imageUrl": "/assets/aistudio/images__1__94f930d6.jpeg",
+      "activePlayersCount": 1480,
+      "summary": "بطولات الكافيهات والأونلاين بنظام التحدي الفردي 1v1 أو الثنائي 2v2 عبر اليوزر نيم.",
+      "rulesHighlights": []
+    },
+    {
+      "slug": "fc27",
+      "nameAr": "EA Sports FC 27",
+      "nameEn": "EA Sports FC 27",
+      "modeLabel": "1 ضد 1 و ثنائيات 2v2",
+      "scoringSystem": "إقصاء مباشر (الأفضل من مباراتين)",
+      "teamSize": 1,
+      "imageUrl": "/assets/aistudio/FC27-ut-guide_09aef642.jpg",
+      "activePlayersCount": 2490,
+      "summary": "تحديات الكؤوس الفردية 1v1 والثنائية 2v2 في أماكن التحدي وأونلاين.",
+      "rulesHighlights": []
+    }
+  ],
+  "tournaments": [
+    {
+      "id": "t-demo-sandbox-30",
+      "title": "بطولة تجريبية — 30 مشارك وهمي للاختبار",
+      "gameSlug": "fc27",
+      "formatLabel": "ثنائيات 2v2 · 32 مقعد",
+      "modeTag": "2v2",
+      "entryType": "team",
+      "maxSlots": 32,
+      "registeredCount": 30,
+      "venueName": "صالة أرينا برو — المعادي",
+      "prizePool": "10,000 ج.م",
+      "status": "open",
+      "registrationOpen": true,
+      "resultsEntryOpen": true,
+      "isFeatured": true,
+      "rules": [
+        "بطولة تجريبية مضاف إليها 30 مشاركاً وهمياً لتجربة المواجهات والنتائج والحضور.",
+        "يمكنك مسح المشاركين الوهميين في أي وقت بضغطة واحدة من لوحة الإدارة."
+      ],
+      "winnerName": null,
+      "rounds": [
+        {
+          "roundIndex": 0,
+          "nameAr": "دور المجموعات (8 مجموعات × 4 فرق)",
+          "matches": [
+            {
+              "id": "t-demo-sandbox-30-r0-m1",
+              "roundIndex": 0,
+              "matchNumber": 1,
+              "groupName": "المجموعة أ",
+              "seatA": 0,
+              "seatB": 1,
+              "leg": "مباراة واحدة",
+              "scheduledAt": "لم يتحدد",
+              "participantA": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-1",
+                "name": "صقور النيل",
+                "teamName": "صقور النيل",
+                "username": "test_p01",
+                "hasEmail": false,
+                "teammateUsername": "test_sub01",
+                "rosterMembers": [
+                  {
+                    "name": "صقور النيل",
+                    "username": "test_p01",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك صقور النيل",
+                    "username": "test_sub01",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة أ",
+                "seed": 1,
+                "gameId": "ARENA-9001",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "participantB": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-2",
+                "name": "ذئاب الرياض",
+                "teamName": "ذئاب الرياض",
+                "username": "test_p02",
+                "hasEmail": false,
+                "teammateUsername": "test_sub02",
+                "rosterMembers": [
+                  {
+                    "name": "ذئاب الرياض",
+                    "username": "test_p02",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك ذئاب الرياض",
+                    "username": "test_sub02",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة أ",
+                "seed": 2,
+                "gameId": "ARENA-9002",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "scoreA": null,
+              "scoreB": null,
+              "winnerId": null,
+              "status": "upcoming"
+            },
+            {
+              "id": "t-demo-sandbox-30-r0-m2",
+              "roundIndex": 0,
+              "matchNumber": 2,
+              "groupName": "المجموعة أ",
+              "seatA": 2,
+              "seatB": 3,
+              "leg": "مباراة واحدة",
+              "scheduledAt": "لم يتحدد",
+              "participantA": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-3",
+                "name": "فرسان القاهرة",
+                "teamName": "فرسان القاهرة",
+                "username": "test_p03",
+                "hasEmail": false,
+                "teammateUsername": "test_sub03",
+                "rosterMembers": [
+                  {
+                    "name": "فرسان القاهرة",
+                    "username": "test_p03",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك فرسان القاهرة",
+                    "username": "test_sub03",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة أ",
+                "seed": 3,
+                "gameId": "ARENA-9003",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "participantB": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-4",
+                "name": "نخبة جدة",
+                "teamName": "نخبة جدة",
+                "username": "test_p04",
+                "hasEmail": false,
+                "teammateUsername": "test_sub04",
+                "rosterMembers": [
+                  {
+                    "name": "نخبة جدة",
+                    "username": "test_p04",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك نخبة جدة",
+                    "username": "test_sub04",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة أ",
+                "seed": 4,
+                "gameId": "ARENA-9004",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "scoreA": null,
+              "scoreB": null,
+              "winnerId": null,
+              "status": "upcoming"
+            },
+            {
+              "id": "t-demo-sandbox-30-r0-m3",
+              "roundIndex": 0,
+              "matchNumber": 3,
+              "groupName": "المجموعة أ",
+              "seatA": 0,
+              "seatB": 2,
+              "leg": "مباراة واحدة",
+              "scheduledAt": "لم يتحدد",
+              "participantA": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-1",
+                "name": "صقور النيل",
+                "teamName": "صقور النيل",
+                "username": "test_p01",
+                "hasEmail": false,
+                "teammateUsername": "test_sub01",
+                "rosterMembers": [
+                  {
+                    "name": "صقور النيل",
+                    "username": "test_p01",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك صقور النيل",
+                    "username": "test_sub01",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة أ",
+                "seed": 1,
+                "gameId": "ARENA-9001",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "participantB": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-3",
+                "name": "فرسان القاهرة",
+                "teamName": "فرسان القاهرة",
+                "username": "test_p03",
+                "hasEmail": false,
+                "teammateUsername": "test_sub03",
+                "rosterMembers": [
+                  {
+                    "name": "فرسان القاهرة",
+                    "username": "test_p03",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك فرسان القاهرة",
+                    "username": "test_sub03",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة أ",
+                "seed": 3,
+                "gameId": "ARENA-9003",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "scoreA": null,
+              "scoreB": null,
+              "winnerId": null,
+              "status": "upcoming"
+            },
+            {
+              "id": "t-demo-sandbox-30-r0-m4",
+              "roundIndex": 0,
+              "matchNumber": 4,
+              "groupName": "المجموعة أ",
+              "seatA": 1,
+              "seatB": 3,
+              "leg": "مباراة واحدة",
+              "scheduledAt": "لم يتحدد",
+              "participantA": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-2",
+                "name": "ذئاب الرياض",
+                "teamName": "ذئاب الرياض",
+                "username": "test_p02",
+                "hasEmail": false,
+                "teammateUsername": "test_sub02",
+                "rosterMembers": [
+                  {
+                    "name": "ذئاب الرياض",
+                    "username": "test_p02",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك ذئاب الرياض",
+                    "username": "test_sub02",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة أ",
+                "seed": 2,
+                "gameId": "ARENA-9002",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "participantB": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-4",
+                "name": "نخبة جدة",
+                "teamName": "نخبة جدة",
+                "username": "test_p04",
+                "hasEmail": false,
+                "teammateUsername": "test_sub04",
+                "rosterMembers": [
+                  {
+                    "name": "نخبة جدة",
+                    "username": "test_p04",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك نخبة جدة",
+                    "username": "test_sub04",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة أ",
+                "seed": 4,
+                "gameId": "ARENA-9004",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "scoreA": null,
+              "scoreB": null,
+              "winnerId": null,
+              "status": "live"
+            },
+            {
+              "id": "t-demo-sandbox-30-r0-m5",
+              "roundIndex": 0,
+              "matchNumber": 5,
+              "groupName": "المجموعة أ",
+              "seatA": 0,
+              "seatB": 3,
+              "leg": "مباراة واحدة",
+              "scheduledAt": "لم يتحدد",
+              "participantA": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-1",
+                "name": "صقور النيل",
+                "teamName": "صقور النيل",
+                "username": "test_p01",
+                "hasEmail": false,
+                "teammateUsername": "test_sub01",
+                "rosterMembers": [
+                  {
+                    "name": "صقور النيل",
+                    "username": "test_p01",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك صقور النيل",
+                    "username": "test_sub01",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة أ",
+                "seed": 1,
+                "gameId": "ARENA-9001",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "participantB": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-4",
+                "name": "نخبة جدة",
+                "teamName": "نخبة جدة",
+                "username": "test_p04",
+                "hasEmail": false,
+                "teammateUsername": "test_sub04",
+                "rosterMembers": [
+                  {
+                    "name": "نخبة جدة",
+                    "username": "test_p04",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك نخبة جدة",
+                    "username": "test_sub04",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة أ",
+                "seed": 4,
+                "gameId": "ARENA-9004",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "scoreA": null,
+              "scoreB": null,
+              "winnerId": null,
+              "status": "live"
+            },
+            {
+              "id": "t-demo-sandbox-30-r0-m6",
+              "roundIndex": 0,
+              "matchNumber": 6,
+              "groupName": "المجموعة أ",
+              "seatA": 1,
+              "seatB": 2,
+              "leg": "مباراة واحدة",
+              "scheduledAt": "لم يتحدد",
+              "participantA": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-2",
+                "name": "ذئاب الرياض",
+                "teamName": "ذئاب الرياض",
+                "username": "test_p02",
+                "hasEmail": false,
+                "teammateUsername": "test_sub02",
+                "rosterMembers": [
+                  {
+                    "name": "ذئاب الرياض",
+                    "username": "test_p02",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك ذئاب الرياض",
+                    "username": "test_sub02",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة أ",
+                "seed": 2,
+                "gameId": "ARENA-9002",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "participantB": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-3",
+                "name": "فرسان القاهرة",
+                "teamName": "فرسان القاهرة",
+                "username": "test_p03",
+                "hasEmail": false,
+                "teammateUsername": "test_sub03",
+                "rosterMembers": [
+                  {
+                    "name": "فرسان القاهرة",
+                    "username": "test_p03",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك فرسان القاهرة",
+                    "username": "test_sub03",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة أ",
+                "seed": 3,
+                "gameId": "ARENA-9003",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "scoreA": null,
+              "scoreB": null,
+              "winnerId": null,
+              "status": "live"
+            },
+            {
+              "id": "t-demo-sandbox-30-r0-m7",
+              "roundIndex": 0,
+              "matchNumber": 7,
+              "groupName": "المجموعة ب",
+              "seatA": 0,
+              "seatB": 1,
+              "leg": "مباراة واحدة",
+              "scheduledAt": "لم يتحدد",
+              "participantA": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-5",
+                "name": "عاصفة الشام",
+                "teamName": "عاصفة الشام",
+                "username": "test_p05",
+                "hasEmail": false,
+                "teammateUsername": "test_sub05",
+                "rosterMembers": [
+                  {
+                    "name": "عاصفة الشام",
+                    "username": "test_p05",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك عاصفة الشام",
+                    "username": "test_sub05",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة ب",
+                "seed": 5,
+                "gameId": "ARENA-9005",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "participantB": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-6",
+                "name": "أبطال الدلتا",
+                "teamName": "أبطال الدلتا",
+                "username": "test_p06",
+                "hasEmail": false,
+                "teammateUsername": "test_sub06",
+                "rosterMembers": [
+                  {
+                    "name": "أبطال الدلتا",
+                    "username": "test_p06",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك أبطال الدلتا",
+                    "username": "test_sub06",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة ب",
+                "seed": 6,
+                "gameId": "ARENA-9006",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "scoreA": null,
+              "scoreB": null,
+              "winnerId": null,
+              "status": "live"
+            },
+            {
+              "id": "t-demo-sandbox-30-r0-m8",
+              "roundIndex": 0,
+              "matchNumber": 8,
+              "groupName": "المجموعة ب",
+              "seatA": 2,
+              "seatB": 3,
+              "leg": "مباراة واحدة",
+              "scheduledAt": "لم يتحدد",
+              "participantA": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-7",
+                "name": "رعد الخليج",
+                "teamName": "رعد الخليج",
+                "username": "test_p07",
+                "hasEmail": false,
+                "teammateUsername": "test_sub07",
+                "rosterMembers": [
+                  {
+                    "name": "رعد الخليج",
+                    "username": "test_p07",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك رعد الخليج",
+                    "username": "test_sub07",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة ب",
+                "seed": 7,
+                "gameId": "ARENA-9007",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "participantB": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-8",
+                "name": "حراس الإسكندرية",
+                "teamName": "حراس الإسكندرية",
+                "username": "test_p08",
+                "hasEmail": false,
+                "teammateUsername": "test_sub08",
+                "rosterMembers": [
+                  {
+                    "name": "حراس الإسكندرية",
+                    "username": "test_p08",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك حراس الإسكندرية",
+                    "username": "test_sub08",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة ب",
+                "seed": 8,
+                "gameId": "ARENA-9008",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "scoreA": null,
+              "scoreB": null,
+              "winnerId": null,
+              "status": "live"
+            },
+            {
+              "id": "t-demo-sandbox-30-r0-m9",
+              "roundIndex": 0,
+              "matchNumber": 9,
+              "groupName": "المجموعة ب",
+              "seatA": 0,
+              "seatB": 2,
+              "leg": "مباراة واحدة",
+              "scheduledAt": "لم يتحدد",
+              "participantA": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-5",
+                "name": "عاصفة الشام",
+                "teamName": "عاصفة الشام",
+                "username": "test_p05",
+                "hasEmail": false,
+                "teammateUsername": "test_sub05",
+                "rosterMembers": [
+                  {
+                    "name": "عاصفة الشام",
+                    "username": "test_p05",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك عاصفة الشام",
+                    "username": "test_sub05",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة ب",
+                "seed": 5,
+                "gameId": "ARENA-9005",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "participantB": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-7",
+                "name": "رعد الخليج",
+                "teamName": "رعد الخليج",
+                "username": "test_p07",
+                "hasEmail": false,
+                "teammateUsername": "test_sub07",
+                "rosterMembers": [
+                  {
+                    "name": "رعد الخليج",
+                    "username": "test_p07",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك رعد الخليج",
+                    "username": "test_sub07",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة ب",
+                "seed": 7,
+                "gameId": "ARENA-9007",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "scoreA": null,
+              "scoreB": null,
+              "winnerId": null,
+              "status": "live"
+            },
+            {
+              "id": "t-demo-sandbox-30-r0-m10",
+              "roundIndex": 0,
+              "matchNumber": 10,
+              "groupName": "المجموعة ب",
+              "seatA": 1,
+              "seatB": 3,
+              "leg": "مباراة واحدة",
+              "scheduledAt": "لم يتحدد",
+              "participantA": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-6",
+                "name": "أبطال الدلتا",
+                "teamName": "أبطال الدلتا",
+                "username": "test_p06",
+                "hasEmail": false,
+                "teammateUsername": "test_sub06",
+                "rosterMembers": [
+                  {
+                    "name": "أبطال الدلتا",
+                    "username": "test_p06",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك أبطال الدلتا",
+                    "username": "test_sub06",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة ب",
+                "seed": 6,
+                "gameId": "ARENA-9006",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "participantB": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-8",
+                "name": "حراس الإسكندرية",
+                "teamName": "حراس الإسكندرية",
+                "username": "test_p08",
+                "hasEmail": false,
+                "teammateUsername": "test_sub08",
+                "rosterMembers": [
+                  {
+                    "name": "حراس الإسكندرية",
+                    "username": "test_p08",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك حراس الإسكندرية",
+                    "username": "test_sub08",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة ب",
+                "seed": 8,
+                "gameId": "ARENA-9008",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "scoreA": null,
+              "scoreB": null,
+              "winnerId": null,
+              "status": "live"
+            },
+            {
+              "id": "t-demo-sandbox-30-r0-m11",
+              "roundIndex": 0,
+              "matchNumber": 11,
+              "groupName": "المجموعة ب",
+              "seatA": 0,
+              "seatB": 3,
+              "leg": "مباراة واحدة",
+              "scheduledAt": "لم يتحدد",
+              "participantA": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-5",
+                "name": "عاصفة الشام",
+                "teamName": "عاصفة الشام",
+                "username": "test_p05",
+                "hasEmail": false,
+                "teammateUsername": "test_sub05",
+                "rosterMembers": [
+                  {
+                    "name": "عاصفة الشام",
+                    "username": "test_p05",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك عاصفة الشام",
+                    "username": "test_sub05",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة ب",
+                "seed": 5,
+                "gameId": "ARENA-9005",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "participantB": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-8",
+                "name": "حراس الإسكندرية",
+                "teamName": "حراس الإسكندرية",
+                "username": "test_p08",
+                "hasEmail": false,
+                "teammateUsername": "test_sub08",
+                "rosterMembers": [
+                  {
+                    "name": "حراس الإسكندرية",
+                    "username": "test_p08",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك حراس الإسكندرية",
+                    "username": "test_sub08",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة ب",
+                "seed": 8,
+                "gameId": "ARENA-9008",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "scoreA": null,
+              "scoreB": null,
+              "winnerId": null,
+              "status": "live"
+            },
+            {
+              "id": "t-demo-sandbox-30-r0-m12",
+              "roundIndex": 0,
+              "matchNumber": 12,
+              "groupName": "المجموعة ب",
+              "seatA": 1,
+              "seatB": 2,
+              "leg": "مباراة واحدة",
+              "scheduledAt": "لم يتحدد",
+              "participantA": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-6",
+                "name": "أبطال الدلتا",
+                "teamName": "أبطال الدلتا",
+                "username": "test_p06",
+                "hasEmail": false,
+                "teammateUsername": "test_sub06",
+                "rosterMembers": [
+                  {
+                    "name": "أبطال الدلتا",
+                    "username": "test_p06",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك أبطال الدلتا",
+                    "username": "test_sub06",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة ب",
+                "seed": 6,
+                "gameId": "ARENA-9006",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "participantB": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-7",
+                "name": "رعد الخليج",
+                "teamName": "رعد الخليج",
+                "username": "test_p07",
+                "hasEmail": false,
+                "teammateUsername": "test_sub07",
+                "rosterMembers": [
+                  {
+                    "name": "رعد الخليج",
+                    "username": "test_p07",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك رعد الخليج",
+                    "username": "test_sub07",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة ب",
+                "seed": 7,
+                "gameId": "ARENA-9007",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "scoreA": null,
+              "scoreB": null,
+              "winnerId": null,
+              "status": "live"
+            },
+            {
+              "id": "t-demo-sandbox-30-r0-m13",
+              "roundIndex": 0,
+              "matchNumber": 13,
+              "groupName": "المجموعة ج",
+              "seatA": 0,
+              "seatB": 1,
+              "leg": "مباراة واحدة",
+              "scheduledAt": "لم يتحدد",
+              "participantA": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-9",
+                "name": "نسور الأردن",
+                "teamName": "نسور الأردن",
+                "username": "test_p09",
+                "hasEmail": false,
+                "teammateUsername": "test_sub09",
+                "rosterMembers": [
+                  {
+                    "name": "نسور الأردن",
+                    "username": "test_p09",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك نسور الأردن",
+                    "username": "test_sub09",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة ج",
+                "seed": 9,
+                "gameId": "ARENA-9009",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "participantB": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-10",
+                "name": "شباب الدار",
+                "teamName": "شباب الدار",
+                "username": "test_p10",
+                "hasEmail": false,
+                "teammateUsername": "test_sub10",
+                "rosterMembers": [
+                  {
+                    "name": "شباب الدار",
+                    "username": "test_p10",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك شباب الدار",
+                    "username": "test_sub10",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة ج",
+                "seed": 10,
+                "gameId": "ARENA-9010",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "scoreA": null,
+              "scoreB": null,
+              "winnerId": null,
+              "status": "live"
+            },
+            {
+              "id": "t-demo-sandbox-30-r0-m14",
+              "roundIndex": 0,
+              "matchNumber": 14,
+              "groupName": "المجموعة ج",
+              "seatA": 2,
+              "seatB": 3,
+              "leg": "مباراة واحدة",
+              "scheduledAt": "لم يتحدد",
+              "participantA": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-11",
+                "name": "فيلق الميدان",
+                "teamName": "فيلق الميدان",
+                "username": "test_p11",
+                "hasEmail": false,
+                "teammateUsername": "test_sub11",
+                "rosterMembers": [
+                  {
+                    "name": "فيلق الميدان",
+                    "username": "test_p11",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك فيلق الميدان",
+                    "username": "test_sub11",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة ج",
+                "seed": 11,
+                "gameId": "ARENA-9011",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "participantB": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-12",
+                "name": "كتيبة النصر",
+                "teamName": "كتيبة النصر",
+                "username": "test_p12",
+                "hasEmail": false,
+                "teammateUsername": "test_sub12",
+                "rosterMembers": [
+                  {
+                    "name": "كتيبة النصر",
+                    "username": "test_p12",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك كتيبة النصر",
+                    "username": "test_sub12",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة ج",
+                "seed": 12,
+                "gameId": "ARENA-9012",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "scoreA": null,
+              "scoreB": null,
+              "winnerId": null,
+              "status": "live"
+            },
+            {
+              "id": "t-demo-sandbox-30-r0-m15",
+              "roundIndex": 0,
+              "matchNumber": 15,
+              "groupName": "المجموعة ج",
+              "seatA": 0,
+              "seatB": 2,
+              "leg": "مباراة واحدة",
+              "scheduledAt": "لم يتحدد",
+              "participantA": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-9",
+                "name": "نسور الأردن",
+                "teamName": "نسور الأردن",
+                "username": "test_p09",
+                "hasEmail": false,
+                "teammateUsername": "test_sub09",
+                "rosterMembers": [
+                  {
+                    "name": "نسور الأردن",
+                    "username": "test_p09",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك نسور الأردن",
+                    "username": "test_sub09",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة ج",
+                "seed": 9,
+                "gameId": "ARENA-9009",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "participantB": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-11",
+                "name": "فيلق الميدان",
+                "teamName": "فيلق الميدان",
+                "username": "test_p11",
+                "hasEmail": false,
+                "teammateUsername": "test_sub11",
+                "rosterMembers": [
+                  {
+                    "name": "فيلق الميدان",
+                    "username": "test_p11",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك فيلق الميدان",
+                    "username": "test_sub11",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة ج",
+                "seed": 11,
+                "gameId": "ARENA-9011",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "scoreA": null,
+              "scoreB": null,
+              "winnerId": null,
+              "status": "live"
+            },
+            {
+              "id": "t-demo-sandbox-30-r0-m16",
+              "roundIndex": 0,
+              "matchNumber": 16,
+              "groupName": "المجموعة ج",
+              "seatA": 1,
+              "seatB": 3,
+              "leg": "مباراة واحدة",
+              "scheduledAt": "لم يتحدد",
+              "participantA": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-10",
+                "name": "شباب الدار",
+                "teamName": "شباب الدار",
+                "username": "test_p10",
+                "hasEmail": false,
+                "teammateUsername": "test_sub10",
+                "rosterMembers": [
+                  {
+                    "name": "شباب الدار",
+                    "username": "test_p10",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك شباب الدار",
+                    "username": "test_sub10",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة ج",
+                "seed": 10,
+                "gameId": "ARENA-9010",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "participantB": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-12",
+                "name": "كتيبة النصر",
+                "teamName": "كتيبة النصر",
+                "username": "test_p12",
+                "hasEmail": false,
+                "teammateUsername": "test_sub12",
+                "rosterMembers": [
+                  {
+                    "name": "كتيبة النصر",
+                    "username": "test_p12",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك كتيبة النصر",
+                    "username": "test_sub12",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة ج",
+                "seed": 12,
+                "gameId": "ARENA-9012",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "scoreA": null,
+              "scoreB": null,
+              "winnerId": null,
+              "status": "live"
+            },
+            {
+              "id": "t-demo-sandbox-30-r0-m17",
+              "roundIndex": 0,
+              "matchNumber": 17,
+              "groupName": "المجموعة ج",
+              "seatA": 0,
+              "seatB": 3,
+              "leg": "مباراة واحدة",
+              "scheduledAt": "لم يتحدد",
+              "participantA": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-9",
+                "name": "نسور الأردن",
+                "teamName": "نسور الأردن",
+                "username": "test_p09",
+                "hasEmail": false,
+                "teammateUsername": "test_sub09",
+                "rosterMembers": [
+                  {
+                    "name": "نسور الأردن",
+                    "username": "test_p09",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك نسور الأردن",
+                    "username": "test_sub09",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة ج",
+                "seed": 9,
+                "gameId": "ARENA-9009",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "participantB": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-12",
+                "name": "كتيبة النصر",
+                "teamName": "كتيبة النصر",
+                "username": "test_p12",
+                "hasEmail": false,
+                "teammateUsername": "test_sub12",
+                "rosterMembers": [
+                  {
+                    "name": "كتيبة النصر",
+                    "username": "test_p12",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك كتيبة النصر",
+                    "username": "test_sub12",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة ج",
+                "seed": 12,
+                "gameId": "ARENA-9012",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "scoreA": null,
+              "scoreB": null,
+              "winnerId": null,
+              "status": "live"
+            },
+            {
+              "id": "t-demo-sandbox-30-r0-m18",
+              "roundIndex": 0,
+              "matchNumber": 18,
+              "groupName": "المجموعة ج",
+              "seatA": 1,
+              "seatB": 2,
+              "leg": "مباراة واحدة",
+              "scheduledAt": "لم يتحدد",
+              "participantA": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-10",
+                "name": "شباب الدار",
+                "teamName": "شباب الدار",
+                "username": "test_p10",
+                "hasEmail": false,
+                "teammateUsername": "test_sub10",
+                "rosterMembers": [
+                  {
+                    "name": "شباب الدار",
+                    "username": "test_p10",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك شباب الدار",
+                    "username": "test_sub10",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة ج",
+                "seed": 10,
+                "gameId": "ARENA-9010",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "participantB": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-11",
+                "name": "فيلق الميدان",
+                "teamName": "فيلق الميدان",
+                "username": "test_p11",
+                "hasEmail": false,
+                "teammateUsername": "test_sub11",
+                "rosterMembers": [
+                  {
+                    "name": "فيلق الميدان",
+                    "username": "test_p11",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك فيلق الميدان",
+                    "username": "test_sub11",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة ج",
+                "seed": 11,
+                "gameId": "ARENA-9011",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "scoreA": null,
+              "scoreB": null,
+              "winnerId": null,
+              "status": "live"
+            },
+            {
+              "id": "t-demo-sandbox-30-r0-m19",
+              "roundIndex": 0,
+              "matchNumber": 19,
+              "groupName": "المجموعة د",
+              "seatA": 0,
+              "seatB": 1,
+              "leg": "مباراة واحدة",
+              "scheduledAt": "لم يتحدد",
+              "participantA": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-13",
+                "name": "أسياد الساحة",
+                "teamName": "أسياد الساحة",
+                "username": "test_p13",
+                "hasEmail": false,
+                "teammateUsername": "test_sub13",
+                "rosterMembers": [
+                  {
+                    "name": "أسياد الساحة",
+                    "username": "test_p13",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك أسياد الساحة",
+                    "username": "test_sub13",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة د",
+                "seed": 13,
+                "gameId": "ARENA-9013",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "participantB": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-14",
+                "name": "نجوم المتوسط",
+                "teamName": "نجوم المتوسط",
+                "username": "test_p14",
+                "hasEmail": false,
+                "teammateUsername": "test_sub14",
+                "rosterMembers": [
+                  {
+                    "name": "نجوم المتوسط",
+                    "username": "test_p14",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك نجوم المتوسط",
+                    "username": "test_sub14",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة د",
+                "seed": 14,
+                "gameId": "ARENA-9014",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "scoreA": null,
+              "scoreB": null,
+              "winnerId": null,
+              "status": "live"
+            },
+            {
+              "id": "t-demo-sandbox-30-r0-m20",
+              "roundIndex": 0,
+              "matchNumber": 20,
+              "groupName": "المجموعة د",
+              "seatA": 2,
+              "seatB": 3,
+              "leg": "مباراة واحدة",
+              "scheduledAt": "لم يتحدد",
+              "participantA": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-15",
+                "name": "فرقة الصاعقة",
+                "teamName": "فرقة الصاعقة",
+                "username": "test_p15",
+                "hasEmail": false,
+                "teammateUsername": "test_sub15",
+                "rosterMembers": [
+                  {
+                    "name": "فرقة الصاعقة",
+                    "username": "test_p15",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك فرقة الصاعقة",
+                    "username": "test_sub15",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة د",
+                "seed": 15,
+                "gameId": "ARENA-9015",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "participantB": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-16",
+                "name": "مغاوير العرب",
+                "teamName": "مغاوير العرب",
+                "username": "test_p16",
+                "hasEmail": false,
+                "teammateUsername": "test_sub16",
+                "rosterMembers": [
+                  {
+                    "name": "مغاوير العرب",
+                    "username": "test_p16",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك مغاوير العرب",
+                    "username": "test_sub16",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة د",
+                "seed": 16,
+                "gameId": "ARENA-9016",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "scoreA": null,
+              "scoreB": null,
+              "winnerId": null,
+              "status": "live"
+            },
+            {
+              "id": "t-demo-sandbox-30-r0-m21",
+              "roundIndex": 0,
+              "matchNumber": 21,
+              "groupName": "المجموعة د",
+              "seatA": 0,
+              "seatB": 2,
+              "leg": "مباراة واحدة",
+              "scheduledAt": "لم يتحدد",
+              "participantA": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-13",
+                "name": "أسياد الساحة",
+                "teamName": "أسياد الساحة",
+                "username": "test_p13",
+                "hasEmail": false,
+                "teammateUsername": "test_sub13",
+                "rosterMembers": [
+                  {
+                    "name": "أسياد الساحة",
+                    "username": "test_p13",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك أسياد الساحة",
+                    "username": "test_sub13",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة د",
+                "seed": 13,
+                "gameId": "ARENA-9013",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "participantB": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-15",
+                "name": "فرقة الصاعقة",
+                "teamName": "فرقة الصاعقة",
+                "username": "test_p15",
+                "hasEmail": false,
+                "teammateUsername": "test_sub15",
+                "rosterMembers": [
+                  {
+                    "name": "فرقة الصاعقة",
+                    "username": "test_p15",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك فرقة الصاعقة",
+                    "username": "test_sub15",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة د",
+                "seed": 15,
+                "gameId": "ARENA-9015",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "scoreA": null,
+              "scoreB": null,
+              "winnerId": null,
+              "status": "live"
+            },
+            {
+              "id": "t-demo-sandbox-30-r0-m22",
+              "roundIndex": 0,
+              "matchNumber": 22,
+              "groupName": "المجموعة د",
+              "seatA": 1,
+              "seatB": 3,
+              "leg": "مباراة واحدة",
+              "scheduledAt": "لم يتحدد",
+              "participantA": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-14",
+                "name": "نجوم المتوسط",
+                "teamName": "نجوم المتوسط",
+                "username": "test_p14",
+                "hasEmail": false,
+                "teammateUsername": "test_sub14",
+                "rosterMembers": [
+                  {
+                    "name": "نجوم المتوسط",
+                    "username": "test_p14",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك نجوم المتوسط",
+                    "username": "test_sub14",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة د",
+                "seed": 14,
+                "gameId": "ARENA-9014",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "participantB": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-16",
+                "name": "مغاوير العرب",
+                "teamName": "مغاوير العرب",
+                "username": "test_p16",
+                "hasEmail": false,
+                "teammateUsername": "test_sub16",
+                "rosterMembers": [
+                  {
+                    "name": "مغاوير العرب",
+                    "username": "test_p16",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك مغاوير العرب",
+                    "username": "test_sub16",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة د",
+                "seed": 16,
+                "gameId": "ARENA-9016",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "scoreA": null,
+              "scoreB": null,
+              "winnerId": null,
+              "status": "live"
+            },
+            {
+              "id": "t-demo-sandbox-30-r0-m23",
+              "roundIndex": 0,
+              "matchNumber": 23,
+              "groupName": "المجموعة د",
+              "seatA": 0,
+              "seatB": 3,
+              "leg": "مباراة واحدة",
+              "scheduledAt": "لم يتحدد",
+              "participantA": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-13",
+                "name": "أسياد الساحة",
+                "teamName": "أسياد الساحة",
+                "username": "test_p13",
+                "hasEmail": false,
+                "teammateUsername": "test_sub13",
+                "rosterMembers": [
+                  {
+                    "name": "أسياد الساحة",
+                    "username": "test_p13",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك أسياد الساحة",
+                    "username": "test_sub13",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة د",
+                "seed": 13,
+                "gameId": "ARENA-9013",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "participantB": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-16",
+                "name": "مغاوير العرب",
+                "teamName": "مغاوير العرب",
+                "username": "test_p16",
+                "hasEmail": false,
+                "teammateUsername": "test_sub16",
+                "rosterMembers": [
+                  {
+                    "name": "مغاوير العرب",
+                    "username": "test_p16",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك مغاوير العرب",
+                    "username": "test_sub16",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة د",
+                "seed": 16,
+                "gameId": "ARENA-9016",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "scoreA": null,
+              "scoreB": null,
+              "winnerId": null,
+              "status": "live"
+            },
+            {
+              "id": "t-demo-sandbox-30-r0-m24",
+              "roundIndex": 0,
+              "matchNumber": 24,
+              "groupName": "المجموعة د",
+              "seatA": 1,
+              "seatB": 2,
+              "leg": "مباراة واحدة",
+              "scheduledAt": "لم يتحدد",
+              "participantA": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-14",
+                "name": "نجوم المتوسط",
+                "teamName": "نجوم المتوسط",
+                "username": "test_p14",
+                "hasEmail": false,
+                "teammateUsername": "test_sub14",
+                "rosterMembers": [
+                  {
+                    "name": "نجوم المتوسط",
+                    "username": "test_p14",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك نجوم المتوسط",
+                    "username": "test_sub14",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة د",
+                "seed": 14,
+                "gameId": "ARENA-9014",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "participantB": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-15",
+                "name": "فرقة الصاعقة",
+                "teamName": "فرقة الصاعقة",
+                "username": "test_p15",
+                "hasEmail": false,
+                "teammateUsername": "test_sub15",
+                "rosterMembers": [
+                  {
+                    "name": "فرقة الصاعقة",
+                    "username": "test_p15",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك فرقة الصاعقة",
+                    "username": "test_sub15",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة د",
+                "seed": 15,
+                "gameId": "ARENA-9015",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "scoreA": null,
+              "scoreB": null,
+              "winnerId": null,
+              "status": "live"
+            },
+            {
+              "id": "t-demo-sandbox-30-r0-m25",
+              "roundIndex": 0,
+              "matchNumber": 25,
+              "groupName": "المجموعة هـ",
+              "seatA": 0,
+              "seatB": 1,
+              "leg": "مباراة واحدة",
+              "scheduledAt": "لم يتحدد",
+              "participantA": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-17",
+                "name": "درع الشرق",
+                "teamName": "درع الشرق",
+                "username": "test_p17",
+                "hasEmail": false,
+                "teammateUsername": "test_sub17",
+                "rosterMembers": [
+                  {
+                    "name": "درع الشرق",
+                    "username": "test_p17",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك درع الشرق",
+                    "username": "test_sub17",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة هـ",
+                "seed": 17,
+                "gameId": "ARENA-9017",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "participantB": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-18",
+                "name": "أشبال الرافدين",
+                "teamName": "أشبال الرافدين",
+                "username": "test_p18",
+                "hasEmail": false,
+                "teammateUsername": "test_sub18",
+                "rosterMembers": [
+                  {
+                    "name": "أشبال الرافدين",
+                    "username": "test_p18",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك أشبال الرافدين",
+                    "username": "test_sub18",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة هـ",
+                "seed": 18,
+                "gameId": "ARENA-9018",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "scoreA": null,
+              "scoreB": null,
+              "winnerId": null,
+              "status": "live"
+            },
+            {
+              "id": "t-demo-sandbox-30-r0-m26",
+              "roundIndex": 0,
+              "matchNumber": 26,
+              "groupName": "المجموعة هـ",
+              "seatA": 2,
+              "seatB": 3,
+              "leg": "مباراة واحدة",
+              "scheduledAt": "لم يتحدد",
+              "participantA": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-19",
+                "name": "قناصة الصحراء",
+                "teamName": "قناصة الصحراء",
+                "username": "test_p19",
+                "hasEmail": false,
+                "teammateUsername": "test_sub19",
+                "rosterMembers": [
+                  {
+                    "name": "قناصة الصحراء",
+                    "username": "test_p19",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك قناصة الصحراء",
+                    "username": "test_sub19",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة هـ",
+                "seed": 19,
+                "gameId": "ARENA-9019",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "participantB": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-20",
+                "name": "تحدي الجيزة",
+                "teamName": "تحدي الجيزة",
+                "username": "test_p20",
+                "hasEmail": false,
+                "teammateUsername": "test_sub20",
+                "rosterMembers": [
+                  {
+                    "name": "تحدي الجيزة",
+                    "username": "test_p20",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك تحدي الجيزة",
+                    "username": "test_sub20",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة هـ",
+                "seed": 20,
+                "gameId": "ARENA-9020",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "scoreA": null,
+              "scoreB": null,
+              "winnerId": null,
+              "status": "live"
+            },
+            {
+              "id": "t-demo-sandbox-30-r0-m27",
+              "roundIndex": 0,
+              "matchNumber": 27,
+              "groupName": "المجموعة هـ",
+              "seatA": 0,
+              "seatB": 2,
+              "leg": "مباراة واحدة",
+              "scheduledAt": "لم يتحدد",
+              "participantA": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-17",
+                "name": "درع الشرق",
+                "teamName": "درع الشرق",
+                "username": "test_p17",
+                "hasEmail": false,
+                "teammateUsername": "test_sub17",
+                "rosterMembers": [
+                  {
+                    "name": "درع الشرق",
+                    "username": "test_p17",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك درع الشرق",
+                    "username": "test_sub17",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة هـ",
+                "seed": 17,
+                "gameId": "ARENA-9017",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "participantB": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-19",
+                "name": "قناصة الصحراء",
+                "teamName": "قناصة الصحراء",
+                "username": "test_p19",
+                "hasEmail": false,
+                "teammateUsername": "test_sub19",
+                "rosterMembers": [
+                  {
+                    "name": "قناصة الصحراء",
+                    "username": "test_p19",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك قناصة الصحراء",
+                    "username": "test_sub19",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة هـ",
+                "seed": 19,
+                "gameId": "ARENA-9019",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "scoreA": null,
+              "scoreB": null,
+              "winnerId": null,
+              "status": "live"
+            },
+            {
+              "id": "t-demo-sandbox-30-r0-m28",
+              "roundIndex": 0,
+              "matchNumber": 28,
+              "groupName": "المجموعة هـ",
+              "seatA": 1,
+              "seatB": 3,
+              "leg": "مباراة واحدة",
+              "scheduledAt": "لم يتحدد",
+              "participantA": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-18",
+                "name": "أشبال الرافدين",
+                "teamName": "أشبال الرافدين",
+                "username": "test_p18",
+                "hasEmail": false,
+                "teammateUsername": "test_sub18",
+                "rosterMembers": [
+                  {
+                    "name": "أشبال الرافدين",
+                    "username": "test_p18",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك أشبال الرافدين",
+                    "username": "test_sub18",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة هـ",
+                "seed": 18,
+                "gameId": "ARENA-9018",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "participantB": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-20",
+                "name": "تحدي الجيزة",
+                "teamName": "تحدي الجيزة",
+                "username": "test_p20",
+                "hasEmail": false,
+                "teammateUsername": "test_sub20",
+                "rosterMembers": [
+                  {
+                    "name": "تحدي الجيزة",
+                    "username": "test_p20",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك تحدي الجيزة",
+                    "username": "test_sub20",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة هـ",
+                "seed": 20,
+                "gameId": "ARENA-9020",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "scoreA": null,
+              "scoreB": null,
+              "winnerId": null,
+              "status": "live"
+            },
+            {
+              "id": "t-demo-sandbox-30-r0-m29",
+              "roundIndex": 0,
+              "matchNumber": 29,
+              "groupName": "المجموعة هـ",
+              "seatA": 0,
+              "seatB": 3,
+              "leg": "مباراة واحدة",
+              "scheduledAt": "لم يتحدد",
+              "participantA": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-17",
+                "name": "درع الشرق",
+                "teamName": "درع الشرق",
+                "username": "test_p17",
+                "hasEmail": false,
+                "teammateUsername": "test_sub17",
+                "rosterMembers": [
+                  {
+                    "name": "درع الشرق",
+                    "username": "test_p17",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك درع الشرق",
+                    "username": "test_sub17",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة هـ",
+                "seed": 17,
+                "gameId": "ARENA-9017",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "participantB": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-20",
+                "name": "تحدي الجيزة",
+                "teamName": "تحدي الجيزة",
+                "username": "test_p20",
+                "hasEmail": false,
+                "teammateUsername": "test_sub20",
+                "rosterMembers": [
+                  {
+                    "name": "تحدي الجيزة",
+                    "username": "test_p20",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك تحدي الجيزة",
+                    "username": "test_sub20",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة هـ",
+                "seed": 20,
+                "gameId": "ARENA-9020",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "scoreA": null,
+              "scoreB": null,
+              "winnerId": null,
+              "status": "live"
+            },
+            {
+              "id": "t-demo-sandbox-30-r0-m30",
+              "roundIndex": 0,
+              "matchNumber": 30,
+              "groupName": "المجموعة هـ",
+              "seatA": 1,
+              "seatB": 2,
+              "leg": "مباراة واحدة",
+              "scheduledAt": "لم يتحدد",
+              "participantA": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-18",
+                "name": "أشبال الرافدين",
+                "teamName": "أشبال الرافدين",
+                "username": "test_p18",
+                "hasEmail": false,
+                "teammateUsername": "test_sub18",
+                "rosterMembers": [
+                  {
+                    "name": "أشبال الرافدين",
+                    "username": "test_p18",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك أشبال الرافدين",
+                    "username": "test_sub18",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة هـ",
+                "seed": 18,
+                "gameId": "ARENA-9018",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "participantB": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-19",
+                "name": "قناصة الصحراء",
+                "teamName": "قناصة الصحراء",
+                "username": "test_p19",
+                "hasEmail": false,
+                "teammateUsername": "test_sub19",
+                "rosterMembers": [
+                  {
+                    "name": "قناصة الصحراء",
+                    "username": "test_p19",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك قناصة الصحراء",
+                    "username": "test_sub19",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة هـ",
+                "seed": 19,
+                "gameId": "ARENA-9019",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "scoreA": null,
+              "scoreB": null,
+              "winnerId": null,
+              "status": "live"
+            },
+            {
+              "id": "t-demo-sandbox-30-r0-m31",
+              "roundIndex": 0,
+              "matchNumber": 31,
+              "groupName": "المجموعة و",
+              "seatA": 0,
+              "seatB": 1,
+              "leg": "مباراة واحدة",
+              "scheduledAt": "لم يتحدد",
+              "participantA": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-21",
+                "name": "فخر الكويت",
+                "teamName": "فخر الكويت",
+                "username": "test_p21",
+                "hasEmail": false,
+                "teammateUsername": "test_sub21",
+                "rosterMembers": [
+                  {
+                    "name": "فخر الكويت",
+                    "username": "test_p21",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك فخر الكويت",
+                    "username": "test_sub21",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة و",
+                "seed": 21,
+                "gameId": "ARENA-9021",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "participantB": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-22",
+                "name": "موج البحرين",
+                "teamName": "موج البحرين",
+                "username": "test_p22",
+                "hasEmail": false,
+                "teammateUsername": "test_sub22",
+                "rosterMembers": [
+                  {
+                    "name": "موج البحرين",
+                    "username": "test_p22",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك موج البحرين",
+                    "username": "test_sub22",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة و",
+                "seed": 22,
+                "gameId": "ARENA-9022",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "scoreA": null,
+              "scoreB": null,
+              "winnerId": null,
+              "status": "live"
+            },
+            {
+              "id": "t-demo-sandbox-30-r0-m32",
+              "roundIndex": 0,
+              "matchNumber": 32,
+              "groupName": "المجموعة و",
+              "seatA": 2,
+              "seatB": 3,
+              "leg": "مباراة واحدة",
+              "scheduledAt": "لم يتحدد",
+              "participantA": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-23",
+                "name": "أسود الأطلس",
+                "teamName": "أسود الأطلس",
+                "username": "test_p23",
+                "hasEmail": false,
+                "teammateUsername": "test_sub23",
+                "rosterMembers": [
+                  {
+                    "name": "أسود الأطلس",
+                    "username": "test_p23",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك أسود الأطلس",
+                    "username": "test_sub23",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة و",
+                "seed": 23,
+                "gameId": "ARENA-9023",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "participantB": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-24",
+                "name": "برق دبي",
+                "teamName": "برق دبي",
+                "username": "test_p24",
+                "hasEmail": false,
+                "teammateUsername": "test_sub24",
+                "rosterMembers": [
+                  {
+                    "name": "برق دبي",
+                    "username": "test_p24",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك برق دبي",
+                    "username": "test_sub24",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة و",
+                "seed": 24,
+                "gameId": "ARENA-9024",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "scoreA": null,
+              "scoreB": null,
+              "winnerId": null,
+              "status": "live"
+            },
+            {
+              "id": "t-demo-sandbox-30-r0-m33",
+              "roundIndex": 0,
+              "matchNumber": 33,
+              "groupName": "المجموعة و",
+              "seatA": 0,
+              "seatB": 2,
+              "leg": "مباراة واحدة",
+              "scheduledAt": "لم يتحدد",
+              "participantA": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-21",
+                "name": "فخر الكويت",
+                "teamName": "فخر الكويت",
+                "username": "test_p21",
+                "hasEmail": false,
+                "teammateUsername": "test_sub21",
+                "rosterMembers": [
+                  {
+                    "name": "فخر الكويت",
+                    "username": "test_p21",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك فخر الكويت",
+                    "username": "test_sub21",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة و",
+                "seed": 21,
+                "gameId": "ARENA-9021",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "participantB": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-23",
+                "name": "أسود الأطلس",
+                "teamName": "أسود الأطلس",
+                "username": "test_p23",
+                "hasEmail": false,
+                "teammateUsername": "test_sub23",
+                "rosterMembers": [
+                  {
+                    "name": "أسود الأطلس",
+                    "username": "test_p23",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك أسود الأطلس",
+                    "username": "test_sub23",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة و",
+                "seed": 23,
+                "gameId": "ARENA-9023",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "scoreA": null,
+              "scoreB": null,
+              "winnerId": null,
+              "status": "live"
+            },
+            {
+              "id": "t-demo-sandbox-30-r0-m34",
+              "roundIndex": 0,
+              "matchNumber": 34,
+              "groupName": "المجموعة و",
+              "seatA": 1,
+              "seatB": 3,
+              "leg": "مباراة واحدة",
+              "scheduledAt": "لم يتحدد",
+              "participantA": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-22",
+                "name": "موج البحرين",
+                "teamName": "موج البحرين",
+                "username": "test_p22",
+                "hasEmail": false,
+                "teammateUsername": "test_sub22",
+                "rosterMembers": [
+                  {
+                    "name": "موج البحرين",
+                    "username": "test_p22",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك موج البحرين",
+                    "username": "test_sub22",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة و",
+                "seed": 22,
+                "gameId": "ARENA-9022",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "participantB": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-24",
+                "name": "برق دبي",
+                "teamName": "برق دبي",
+                "username": "test_p24",
+                "hasEmail": false,
+                "teammateUsername": "test_sub24",
+                "rosterMembers": [
+                  {
+                    "name": "برق دبي",
+                    "username": "test_p24",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك برق دبي",
+                    "username": "test_sub24",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة و",
+                "seed": 24,
+                "gameId": "ARENA-9024",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "scoreA": null,
+              "scoreB": null,
+              "winnerId": null,
+              "status": "live"
+            },
+            {
+              "id": "t-demo-sandbox-30-r0-m35",
+              "roundIndex": 0,
+              "matchNumber": 35,
+              "groupName": "المجموعة و",
+              "seatA": 0,
+              "seatB": 3,
+              "leg": "مباراة واحدة",
+              "scheduledAt": "لم يتحدد",
+              "participantA": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-21",
+                "name": "فخر الكويت",
+                "teamName": "فخر الكويت",
+                "username": "test_p21",
+                "hasEmail": false,
+                "teammateUsername": "test_sub21",
+                "rosterMembers": [
+                  {
+                    "name": "فخر الكويت",
+                    "username": "test_p21",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك فخر الكويت",
+                    "username": "test_sub21",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة و",
+                "seed": 21,
+                "gameId": "ARENA-9021",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "participantB": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-24",
+                "name": "برق دبي",
+                "teamName": "برق دبي",
+                "username": "test_p24",
+                "hasEmail": false,
+                "teammateUsername": "test_sub24",
+                "rosterMembers": [
+                  {
+                    "name": "برق دبي",
+                    "username": "test_p24",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك برق دبي",
+                    "username": "test_sub24",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة و",
+                "seed": 24,
+                "gameId": "ARENA-9024",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "scoreA": null,
+              "scoreB": null,
+              "winnerId": null,
+              "status": "live"
+            },
+            {
+              "id": "t-demo-sandbox-30-r0-m36",
+              "roundIndex": 0,
+              "matchNumber": 36,
+              "groupName": "المجموعة و",
+              "seatA": 1,
+              "seatB": 2,
+              "leg": "مباراة واحدة",
+              "scheduledAt": "لم يتحدد",
+              "participantA": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-22",
+                "name": "موج البحرين",
+                "teamName": "موج البحرين",
+                "username": "test_p22",
+                "hasEmail": false,
+                "teammateUsername": "test_sub22",
+                "rosterMembers": [
+                  {
+                    "name": "موج البحرين",
+                    "username": "test_p22",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك موج البحرين",
+                    "username": "test_sub22",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة و",
+                "seed": 22,
+                "gameId": "ARENA-9022",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "participantB": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-23",
+                "name": "أسود الأطلس",
+                "teamName": "أسود الأطلس",
+                "username": "test_p23",
+                "hasEmail": false,
+                "teammateUsername": "test_sub23",
+                "rosterMembers": [
+                  {
+                    "name": "أسود الأطلس",
+                    "username": "test_p23",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك أسود الأطلس",
+                    "username": "test_sub23",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة و",
+                "seed": 23,
+                "gameId": "ARENA-9023",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "scoreA": null,
+              "scoreB": null,
+              "winnerId": null,
+              "status": "live"
+            },
+            {
+              "id": "t-demo-sandbox-30-r0-m37",
+              "roundIndex": 0,
+              "matchNumber": 37,
+              "groupName": "المجموعة ز",
+              "seatA": 0,
+              "seatB": 1,
+              "leg": "مباراة واحدة",
+              "scheduledAt": "لم يتحدد",
+              "participantA": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-25",
+                "name": "أبطال عمان",
+                "teamName": "أبطال عمان",
+                "username": "test_p25",
+                "hasEmail": false,
+                "teammateUsername": "test_sub25",
+                "rosterMembers": [
+                  {
+                    "name": "أبطال عمان",
+                    "username": "test_p25",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك أبطال عمان",
+                    "username": "test_sub25",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة ز",
+                "seed": 25,
+                "gameId": "ARENA-9025",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "participantB": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-26",
+                "name": "سهام اليمن",
+                "teamName": "سهام اليمن",
+                "username": "test_p26",
+                "hasEmail": false,
+                "teammateUsername": "test_sub26",
+                "rosterMembers": [
+                  {
+                    "name": "سهام اليمن",
+                    "username": "test_p26",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك سهام اليمن",
+                    "username": "test_sub26",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة ز",
+                "seed": 26,
+                "gameId": "ARENA-9026",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "scoreA": null,
+              "scoreB": null,
+              "winnerId": null,
+              "status": "live"
+            },
+            {
+              "id": "t-demo-sandbox-30-r0-m38",
+              "roundIndex": 0,
+              "matchNumber": 38,
+              "groupName": "المجموعة ز",
+              "seatA": 2,
+              "seatB": 3,
+              "leg": "مباراة واحدة",
+              "scheduledAt": "لم يتحدد",
+              "participantA": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-27",
+                "name": "نار التحدي",
+                "teamName": "نار التحدي",
+                "username": "test_p27",
+                "hasEmail": false,
+                "teammateUsername": "test_sub27",
+                "rosterMembers": [
+                  {
+                    "name": "نار التحدي",
+                    "username": "test_p27",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك نار التحدي",
+                    "username": "test_sub27",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة ز",
+                "seed": 27,
+                "gameId": "ARENA-9027",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "participantB": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-28",
+                "name": "وحدة النخبة",
+                "teamName": "وحدة النخبة",
+                "username": "test_p28",
+                "hasEmail": false,
+                "teammateUsername": "test_sub28",
+                "rosterMembers": [
+                  {
+                    "name": "وحدة النخبة",
+                    "username": "test_p28",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك وحدة النخبة",
+                    "username": "test_sub28",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة ز",
+                "seed": 28,
+                "gameId": "ARENA-9028",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "scoreA": null,
+              "scoreB": null,
+              "winnerId": null,
+              "status": "live"
+            },
+            {
+              "id": "t-demo-sandbox-30-r0-m39",
+              "roundIndex": 0,
+              "matchNumber": 39,
+              "groupName": "المجموعة ز",
+              "seatA": 0,
+              "seatB": 2,
+              "leg": "مباراة واحدة",
+              "scheduledAt": "لم يتحدد",
+              "participantA": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-25",
+                "name": "أبطال عمان",
+                "teamName": "أبطال عمان",
+                "username": "test_p25",
+                "hasEmail": false,
+                "teammateUsername": "test_sub25",
+                "rosterMembers": [
+                  {
+                    "name": "أبطال عمان",
+                    "username": "test_p25",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك أبطال عمان",
+                    "username": "test_sub25",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة ز",
+                "seed": 25,
+                "gameId": "ARENA-9025",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "participantB": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-27",
+                "name": "نار التحدي",
+                "teamName": "نار التحدي",
+                "username": "test_p27",
+                "hasEmail": false,
+                "teammateUsername": "test_sub27",
+                "rosterMembers": [
+                  {
+                    "name": "نار التحدي",
+                    "username": "test_p27",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك نار التحدي",
+                    "username": "test_sub27",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة ز",
+                "seed": 27,
+                "gameId": "ARENA-9027",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "scoreA": null,
+              "scoreB": null,
+              "winnerId": null,
+              "status": "live"
+            },
+            {
+              "id": "t-demo-sandbox-30-r0-m40",
+              "roundIndex": 0,
+              "matchNumber": 40,
+              "groupName": "المجموعة ز",
+              "seatA": 1,
+              "seatB": 3,
+              "leg": "مباراة واحدة",
+              "scheduledAt": "لم يتحدد",
+              "participantA": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-26",
+                "name": "سهام اليمن",
+                "teamName": "سهام اليمن",
+                "username": "test_p26",
+                "hasEmail": false,
+                "teammateUsername": "test_sub26",
+                "rosterMembers": [
+                  {
+                    "name": "سهام اليمن",
+                    "username": "test_p26",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك سهام اليمن",
+                    "username": "test_sub26",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة ز",
+                "seed": 26,
+                "gameId": "ARENA-9026",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "participantB": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-28",
+                "name": "وحدة النخبة",
+                "teamName": "وحدة النخبة",
+                "username": "test_p28",
+                "hasEmail": false,
+                "teammateUsername": "test_sub28",
+                "rosterMembers": [
+                  {
+                    "name": "وحدة النخبة",
+                    "username": "test_p28",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك وحدة النخبة",
+                    "username": "test_sub28",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة ز",
+                "seed": 28,
+                "gameId": "ARENA-9028",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "scoreA": null,
+              "scoreB": null,
+              "winnerId": null,
+              "status": "live"
+            },
+            {
+              "id": "t-demo-sandbox-30-r0-m41",
+              "roundIndex": 0,
+              "matchNumber": 41,
+              "groupName": "المجموعة ز",
+              "seatA": 0,
+              "seatB": 3,
+              "leg": "مباراة واحدة",
+              "scheduledAt": "لم يتحدد",
+              "participantA": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-25",
+                "name": "أبطال عمان",
+                "teamName": "أبطال عمان",
+                "username": "test_p25",
+                "hasEmail": false,
+                "teammateUsername": "test_sub25",
+                "rosterMembers": [
+                  {
+                    "name": "أبطال عمان",
+                    "username": "test_p25",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك أبطال عمان",
+                    "username": "test_sub25",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة ز",
+                "seed": 25,
+                "gameId": "ARENA-9025",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "participantB": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-28",
+                "name": "وحدة النخبة",
+                "teamName": "وحدة النخبة",
+                "username": "test_p28",
+                "hasEmail": false,
+                "teammateUsername": "test_sub28",
+                "rosterMembers": [
+                  {
+                    "name": "وحدة النخبة",
+                    "username": "test_p28",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك وحدة النخبة",
+                    "username": "test_sub28",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة ز",
+                "seed": 28,
+                "gameId": "ARENA-9028",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "scoreA": null,
+              "scoreB": null,
+              "winnerId": null,
+              "status": "live"
+            },
+            {
+              "id": "t-demo-sandbox-30-r0-m42",
+              "roundIndex": 0,
+              "matchNumber": 42,
+              "groupName": "المجموعة ز",
+              "seatA": 1,
+              "seatB": 2,
+              "leg": "مباراة واحدة",
+              "scheduledAt": "لم يتحدد",
+              "participantA": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-26",
+                "name": "سهام اليمن",
+                "teamName": "سهام اليمن",
+                "username": "test_p26",
+                "hasEmail": false,
+                "teammateUsername": "test_sub26",
+                "rosterMembers": [
+                  {
+                    "name": "سهام اليمن",
+                    "username": "test_p26",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك سهام اليمن",
+                    "username": "test_sub26",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة ز",
+                "seed": 26,
+                "gameId": "ARENA-9026",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "participantB": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-27",
+                "name": "نار التحدي",
+                "teamName": "نار التحدي",
+                "username": "test_p27",
+                "hasEmail": false,
+                "teammateUsername": "test_sub27",
+                "rosterMembers": [
+                  {
+                    "name": "نار التحدي",
+                    "username": "test_p27",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك نار التحدي",
+                    "username": "test_sub27",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة ز",
+                "seed": 27,
+                "gameId": "ARENA-9027",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "scoreA": null,
+              "scoreB": null,
+              "winnerId": null,
+              "status": "live"
+            },
+            {
+              "id": "t-demo-sandbox-30-r0-m43",
+              "roundIndex": 0,
+              "matchNumber": 43,
+              "groupName": "المجموعة ح",
+              "seatA": 0,
+              "seatB": 1,
+              "leg": "مباراة واحدة",
+              "scheduledAt": "لم يتحدد",
+              "participantA": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-29",
+                "name": "صناع المجد",
+                "teamName": "صناع المجد",
+                "username": "test_p29",
+                "hasEmail": false,
+                "teammateUsername": "test_sub29",
+                "rosterMembers": [
+                  {
+                    "name": "صناع المجد",
+                    "username": "test_p29",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك صناع المجد",
+                    "username": "test_sub29",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة ح",
+                "seed": 29,
+                "gameId": "ARENA-9029",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "participantB": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-30",
+                "name": "رواد الأرينا",
+                "teamName": "رواد الأرينا",
+                "username": "test_p30",
+                "hasEmail": false,
+                "teammateUsername": "test_sub30",
+                "rosterMembers": [
+                  {
+                    "name": "رواد الأرينا",
+                    "username": "test_p30",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك رواد الأرينا",
+                    "username": "test_sub30",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة ح",
+                "seed": 30,
+                "gameId": "ARENA-9030",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "scoreA": null,
+              "scoreB": null,
+              "winnerId": null,
+              "status": "live"
+            },
+            {
+              "id": "t-demo-sandbox-30-r0-m44",
+              "roundIndex": 0,
+              "matchNumber": 44,
+              "groupName": "المجموعة ح",
+              "seatA": 2,
+              "seatB": 3,
+              "leg": "مباراة واحدة",
+              "scheduledAt": "لم يتحدد",
+              "participantA": null,
+              "participantB": null,
+              "scoreA": null,
+              "scoreB": null,
+              "winnerId": null,
+              "status": "upcoming"
+            },
+            {
+              "id": "t-demo-sandbox-30-r0-m45",
+              "roundIndex": 0,
+              "matchNumber": 45,
+              "groupName": "المجموعة ح",
+              "seatA": 0,
+              "seatB": 2,
+              "leg": "مباراة واحدة",
+              "scheduledAt": "لم يتحدد",
+              "participantA": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-29",
+                "name": "صناع المجد",
+                "teamName": "صناع المجد",
+                "username": "test_p29",
+                "hasEmail": false,
+                "teammateUsername": "test_sub29",
+                "rosterMembers": [
+                  {
+                    "name": "صناع المجد",
+                    "username": "test_p29",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك صناع المجد",
+                    "username": "test_sub29",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة ح",
+                "seed": 29,
+                "gameId": "ARENA-9029",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "participantB": null,
+              "scoreA": null,
+              "scoreB": null,
+              "winnerId": null,
+              "status": "upcoming"
+            },
+            {
+              "id": "t-demo-sandbox-30-r0-m46",
+              "roundIndex": 0,
+              "matchNumber": 46,
+              "groupName": "المجموعة ح",
+              "seatA": 1,
+              "seatB": 3,
+              "leg": "مباراة واحدة",
+              "scheduledAt": "لم يتحدد",
+              "participantA": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-30",
+                "name": "رواد الأرينا",
+                "teamName": "رواد الأرينا",
+                "username": "test_p30",
+                "hasEmail": false,
+                "teammateUsername": "test_sub30",
+                "rosterMembers": [
+                  {
+                    "name": "رواد الأرينا",
+                    "username": "test_p30",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك رواد الأرينا",
+                    "username": "test_sub30",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة ح",
+                "seed": 30,
+                "gameId": "ARENA-9030",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "participantB": null,
+              "scoreA": null,
+              "scoreB": null,
+              "winnerId": null,
+              "status": "upcoming"
+            },
+            {
+              "id": "t-demo-sandbox-30-r0-m47",
+              "roundIndex": 0,
+              "matchNumber": 47,
+              "groupName": "المجموعة ح",
+              "seatA": 0,
+              "seatB": 3,
+              "leg": "مباراة واحدة",
+              "scheduledAt": "لم يتحدد",
+              "participantA": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-29",
+                "name": "صناع المجد",
+                "teamName": "صناع المجد",
+                "username": "test_p29",
+                "hasEmail": false,
+                "teammateUsername": "test_sub29",
+                "rosterMembers": [
+                  {
+                    "name": "صناع المجد",
+                    "username": "test_p29",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك صناع المجد",
+                    "username": "test_sub29",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة ح",
+                "seed": 29,
+                "gameId": "ARENA-9029",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "participantB": null,
+              "scoreA": null,
+              "scoreB": null,
+              "winnerId": null,
+              "status": "upcoming"
+            },
+            {
+              "id": "t-demo-sandbox-30-r0-m48",
+              "roundIndex": 0,
+              "matchNumber": 48,
+              "groupName": "المجموعة ح",
+              "seatA": 1,
+              "seatB": 2,
+              "leg": "مباراة واحدة",
+              "scheduledAt": "لم يتحدد",
+              "participantA": {
+                "id": "t-demo-sandbox-30-dummy-1795173899472-30",
+                "name": "رواد الأرينا",
+                "teamName": "رواد الأرينا",
+                "username": "test_p30",
+                "hasEmail": false,
+                "teammateUsername": "test_sub30",
+                "rosterMembers": [
+                  {
+                    "name": "رواد الأرينا",
+                    "username": "test_p30",
+                    "role": "كابتن"
+                  },
+                  {
+                    "name": "شريك رواد الأرينا",
+                    "username": "test_sub30",
+                    "role": "لاعب"
+                  }
+                ],
+                "groupName": "المجموعة ح",
+                "seed": 30,
+                "gameId": "ARENA-9030",
+                "isTeam": true,
+                "isDummy": true,
+                "checkedInHandles": []
+              },
+              "participantB": null,
+              "scoreA": null,
+              "scoreB": null,
+              "winnerId": null,
+              "status": "upcoming"
+            }
+          ]
+        },
+        {
+          "roundIndex": 1,
+          "nameAr": "دور الـ 16",
+          "matches": [
+            {
+              "id": "t-demo-sandbox-30-r1-m1",
+              "roundIndex": 1,
+              "matchNumber": 1,
+              "groupName": "المواجهات المباشرة",
+              "leg": "مباراة واحدة",
+              "scheduledAt": "لم يتحدد",
+              "participantA": null,
+              "participantB": null,
+              "scoreA": null,
+              "scoreB": null,
+              "winnerId": null,
+              "status": "upcoming"
+            },
+            {
+              "id": "t-demo-sandbox-30-r1-m2",
+              "roundIndex": 1,
+              "matchNumber": 2,
+              "groupName": "المواجهات المباشرة",
+              "leg": "مباراة واحدة",
+              "scheduledAt": "لم يتحدد",
+              "participantA": null,
+              "participantB": null,
+              "scoreA": null,
+              "scoreB": null,
+              "winnerId": null,
+              "status": "upcoming"
+            },
+            {
+              "id": "t-demo-sandbox-30-r1-m3",
+              "roundIndex": 1,
+              "matchNumber": 3,
+              "groupName": "المواجهات المباشرة",
+              "leg": "مباراة واحدة",
+              "scheduledAt": "لم يتحدد",
+              "participantA": null,
+              "participantB": null,
+              "scoreA": null,
+              "scoreB": null,
+              "winnerId": null,
+              "status": "upcoming"
+            },
+            {
+              "id": "t-demo-sandbox-30-r1-m4",
+              "roundIndex": 1,
+              "matchNumber": 4,
+              "groupName": "المواجهات المباشرة",
+              "leg": "مباراة واحدة",
+              "scheduledAt": "لم يتحدد",
+              "participantA": null,
+              "participantB": null,
+              "scoreA": null,
+              "scoreB": null,
+              "winnerId": null,
+              "status": "upcoming"
+            },
+            {
+              "id": "t-demo-sandbox-30-r1-m5",
+              "roundIndex": 1,
+              "matchNumber": 5,
+              "groupName": "المواجهات المباشرة",
+              "leg": "مباراة واحدة",
+              "scheduledAt": "لم يتحدد",
+              "participantA": null,
+              "participantB": null,
+              "scoreA": null,
+              "scoreB": null,
+              "winnerId": null,
+              "status": "upcoming"
+            },
+            {
+              "id": "t-demo-sandbox-30-r1-m6",
+              "roundIndex": 1,
+              "matchNumber": 6,
+              "groupName": "المواجهات المباشرة",
+              "leg": "مباراة واحدة",
+              "scheduledAt": "لم يتحدد",
+              "participantA": null,
+              "participantB": null,
+              "scoreA": null,
+              "scoreB": null,
+              "winnerId": null,
+              "status": "upcoming"
+            },
+            {
+              "id": "t-demo-sandbox-30-r1-m7",
+              "roundIndex": 1,
+              "matchNumber": 7,
+              "groupName": "المواجهات المباشرة",
+              "leg": "مباراة واحدة",
+              "scheduledAt": "لم يتحدد",
+              "participantA": null,
+              "participantB": null,
+              "scoreA": null,
+              "scoreB": null,
+              "winnerId": null,
+              "status": "upcoming"
+            },
+            {
+              "id": "t-demo-sandbox-30-r1-m8",
+              "roundIndex": 1,
+              "matchNumber": 8,
+              "groupName": "المواجهات المباشرة",
+              "leg": "مباراة واحدة",
+              "scheduledAt": "لم يتحدد",
+              "participantA": null,
+              "participantB": null,
+              "scoreA": null,
+              "scoreB": null,
+              "winnerId": null,
+              "status": "upcoming"
+            }
+          ]
+        },
+        {
+          "roundIndex": 2,
+          "nameAr": "ربع النهائي",
+          "matches": [
+            {
+              "id": "t-demo-sandbox-30-r2-m1",
+              "roundIndex": 2,
+              "matchNumber": 1,
+              "groupName": "المواجهات المباشرة",
+              "leg": "مباراة واحدة",
+              "scheduledAt": "لم يتحدد",
+              "participantA": null,
+              "participantB": null,
+              "scoreA": null,
+              "scoreB": null,
+              "winnerId": null,
+              "status": "upcoming"
+            },
+            {
+              "id": "t-demo-sandbox-30-r2-m2",
+              "roundIndex": 2,
+              "matchNumber": 2,
+              "groupName": "المواجهات المباشرة",
+              "leg": "مباراة واحدة",
+              "scheduledAt": "لم يتحدد",
+              "participantA": null,
+              "participantB": null,
+              "scoreA": null,
+              "scoreB": null,
+              "winnerId": null,
+              "status": "upcoming"
+            },
+            {
+              "id": "t-demo-sandbox-30-r2-m3",
+              "roundIndex": 2,
+              "matchNumber": 3,
+              "groupName": "المواجهات المباشرة",
+              "leg": "مباراة واحدة",
+              "scheduledAt": "لم يتحدد",
+              "participantA": null,
+              "participantB": null,
+              "scoreA": null,
+              "scoreB": null,
+              "winnerId": null,
+              "status": "upcoming"
+            },
+            {
+              "id": "t-demo-sandbox-30-r2-m4",
+              "roundIndex": 2,
+              "matchNumber": 4,
+              "groupName": "المواجهات المباشرة",
+              "leg": "مباراة واحدة",
+              "scheduledAt": "لم يتحدد",
+              "participantA": null,
+              "participantB": null,
+              "scoreA": null,
+              "scoreB": null,
+              "winnerId": null,
+              "status": "upcoming"
+            }
+          ]
+        },
+        {
+          "roundIndex": 3,
+          "nameAr": "نصف النهائي",
+          "matches": [
+            {
+              "id": "t-demo-sandbox-30-r3-m1",
+              "roundIndex": 3,
+              "matchNumber": 1,
+              "groupName": "المواجهات المباشرة",
+              "leg": "مباراة واحدة",
+              "scheduledAt": "لم يتحدد",
+              "participantA": null,
+              "participantB": null,
+              "scoreA": null,
+              "scoreB": null,
+              "winnerId": null,
+              "status": "upcoming"
+            },
+            {
+              "id": "t-demo-sandbox-30-r3-m2",
+              "roundIndex": 3,
+              "matchNumber": 2,
+              "groupName": "المواجهات المباشرة",
+              "leg": "مباراة واحدة",
+              "scheduledAt": "لم يتحدد",
+              "participantA": null,
+              "participantB": null,
+              "scoreA": null,
+              "scoreB": null,
+              "winnerId": null,
+              "status": "upcoming"
+            }
+          ]
+        },
+        {
+          "roundIndex": 4,
+          "nameAr": "النهائي",
+          "matches": [
+            {
+              "id": "t-demo-sandbox-30-r4-m1",
+              "roundIndex": 4,
+              "matchNumber": 1,
+              "groupName": "المواجهات المباشرة",
+              "leg": "مباراة واحدة",
+              "scheduledAt": "لم يتحدد",
+              "participantA": null,
+              "participantB": null,
+              "scoreA": null,
+              "scoreB": null,
+              "winnerId": null,
+              "status": "upcoming"
+            }
+          ]
+        }
+      ],
+      "updatedAtMs": 1795437017090
+    }
+  ],
+  "submissions": [],
+  "liveFeed": [],
+  "notifications": [
+    {
+      "id": "notif_mwt9fral_t-demo-sandbox-30-dummy-1795173899472-1",
+      "tournamentId": "t-demo-sandbox-30",
+      "tournamentTitle": "بطولة تجريبية — 30 مشارك وهمي للاختبار",
+      "participantId": "t-demo-sandbox-30-dummy-1795173899472-1",
+      "recipientName": "صقور النيل",
+      "groupName": "المجموعة أ",
+      "matchId": "t-demo-sandbox-30-r0-m1",
+      "matchLabel": "مباراة #1",
+      "opponentName": "ذئاب الرياض",
+      "scheduledAt": "لم يتحدد",
+      "subject": "🎮 أرينا برو | بطولة تجريبية — 30 مشارك وهمي للاختبار — المجموعة أ (لم يتحدد)",
+      "message": "أهلاً صقور النيل،\nتم تحديث تفاصيل مشاركتك في بطولة \"بطولة تجريبية — 30 مشارك وهمي للاختبار\" عبر منصة أرينا برو:\nاللعبة: EA Sports FC 27\nالمجموعة: المجموعة أ\nالمواجهة: مباراة #1\nالخصم: ذئاب الرياض\nالموعد: لم يتحدد\nالمكان / الصالة: صالة أرينا برو — المعادي\nالجائزة: 10,000 ج.م\nرابط المنصة: https://ais-dev-f3bdkhyiep632g77otlh7i-146714628882.europe-west2.run.app",
+      "deliveryStatus": "no_email",
+      "deliveryNote": "تم حفظ التنبيه داخل حساب اللاعب (لا يوجد بريد إلكتروني مسجل).",
+      "createdAt": "2026-11-23T12:46:55.725Z"
+    },
+    {
+      "id": "notif_mwt9fral_t-demo-sandbox-30-dummy-1795173899472-2",
+      "tournamentId": "t-demo-sandbox-30",
+      "tournamentTitle": "بطولة تجريبية — 30 مشارك وهمي للاختبار",
+      "participantId": "t-demo-sandbox-30-dummy-1795173899472-2",
+      "recipientName": "ذئاب الرياض",
+      "groupName": "المجموعة أ",
+      "matchId": "t-demo-sandbox-30-r0-m1",
+      "matchLabel": "مباراة #1",
+      "opponentName": "صقور النيل",
+      "scheduledAt": "لم يتحدد",
+      "subject": "🎮 أرينا برو | بطولة تجريبية — 30 مشارك وهمي للاختبار — المجموعة أ (لم يتحدد)",
+      "message": "أهلاً ذئاب الرياض،\nتم تحديث تفاصيل مشاركتك في بطولة \"بطولة تجريبية — 30 مشارك وهمي للاختبار\" عبر منصة أرينا برو:\nاللعبة: EA Sports FC 27\nالمجموعة: المجموعة أ\nالمواجهة: مباراة #1\nالخصم: صقور النيل\nالموعد: لم يتحدد\nالمكان / الصالة: صالة أرينا برو — المعادي\nالجائزة: 10,000 ج.م\nرابط المنصة: https://ais-dev-f3bdkhyiep632g77otlh7i-146714628882.europe-west2.run.app",
+      "deliveryStatus": "no_email",
+      "deliveryNote": "تم حفظ التنبيه داخل حساب اللاعب (لا يوجد بريد إلكتروني مسجل).",
+      "createdAt": "2026-11-23T12:46:55.725Z"
+    },
+    {
+      "id": "notif-1795176482646-2x8yr",
+      "tournamentId": "t-demo-sandbox-30",
+      "tournamentTitle": "بطولة تجريبية — 30 مشارك وهمي للاختبار",
+      "participantId": "t-demo-sandbox-30-dummy-1795173899472-2",
+      "recipientName": "ذئاب الرياض",
+      "groupName": "المجموعة أ",
+      "matchId": "t-demo-sandbox-30-r0-m1",
+      "matchLabel": "دور المجموعات (8 مجموعات × 4 فرق) · مواجهة #1",
+      "opponentName": "صقور النيل",
+      "scheduledAt": "لم يتحدد",
+      "subject": "أرينا برو | مجموعتك (المجموعة أ) وموعد مباراتك في بطولة تجريبية — 30 مشارك وهمي للاختبار",
+      "message": "أرينا برو (ARENA PRO) — إشعار رسمي للمباراة\n━━━━━━━━━━━━━━━━━━━━━━\nمرحباً ذئاب الرياض،\n\nالبطولة: بطولة تجريبية — 30 مشارك وهمي للاختبار (EA Sports FC 27)\nالمجموعة: المجموعة أ\nموعد المباراة: لم يتحدد\nالمواجهة: دور المجموعات (8 مجموعات × 4 فرق) · مواجهة #1\nالخصم: صقور النيل\nالمكان: صالة أرينا برو — المعادي\nالجائزة: 10,000 ج.م\n\nرابط المنصة: https://ais-dev-f3bdkhyiep632g77otlh7i-146714628882.europe-west2.run.app\nيرجى التواجد قبل موعد المباراة بـ 10 دقائق. بالتوفيق في أرينا برو!",
+      "deliveryStatus": "no_email",
+      "deliveryNote": "لم يُدخل اللاعب بريداً إلكترونياً — تم حفظ التنبيه في حسابه داخل المنصة.",
+      "createdAt": "2026-11-20T12:08:02.646Z"
+    },
+    {
+      "id": "notif-1795176482646-x7fry",
+      "tournamentId": "t-demo-sandbox-30",
+      "tournamentTitle": "بطولة تجريبية — 30 مشارك وهمي للاختبار",
+      "participantId": "t-demo-sandbox-30-dummy-1795173899472-1",
+      "recipientName": "صقور النيل",
+      "recipientEmail": "saeedyassin313@gmail.com",
+      "groupName": "المجموعة أ",
+      "matchId": "t-demo-sandbox-30-r0-m1",
+      "matchLabel": "دور المجموعات (8 مجموعات × 4 فرق) · مواجهة #1",
+      "opponentName": "ذئاب الرياض",
+      "scheduledAt": "لم يتحدد",
+      "subject": "أرينا برو | مجموعتك (المجموعة أ) وموعد مباراتك في بطولة تجريبية — 30 مشارك وهمي للاختبار",
+      "message": "أرينا برو (ARENA PRO) — إشعار رسمي للمباراة\n━━━━━━━━━━━━━━━━━━━━━━\nمرحباً صقور النيل،\n\nالبطولة: بطولة تجريبية — 30 مشارك وهمي للاختبار (EA Sports FC 27)\nالمجموعة: المجموعة أ\nموعد المباراة: لم يتحدد\nالمواجهة: دور المجموعات (8 مجموعات × 4 فرق) · مواجهة #1\nالخصم: ذئاب الرياض\nالمكان: صالة أرينا برو — المعادي\nالجائزة: 10,000 ج.م\n\nرابط المنصة: https://ais-dev-f3bdkhyiep632g77otlh7i-146714628882.europe-west2.run.app\nيرجى التواجد قبل موعد المباراة بـ 10 دقائق. بالتوفيق في أرينا برو!",
+      "deliveryStatus": "failed",
+      "deliveryNote": "انتهت صلاحية جلسة Gmail أو لم يُمنح إذن الإرسال — أعد ربط حساب Gmail وحاول مجدداً.",
+      "createdAt": "2026-11-20T12:08:02.646Z"
+    },
+    {
+      "id": "notif-1795175628615-34xnl",
+      "tournamentId": "t-demo-sandbox-30",
+      "tournamentTitle": "بطولة تجريبية — 30 مشارك وهمي للاختبار",
+      "participantId": "t-demo-sandbox-30-dummy-1795173899472-3",
+      "recipientName": "فرسان القاهرة",
+      "groupName": "المجموعة أ",
+      "matchId": "t-demo-sandbox-30-r0-m3",
+      "matchLabel": "دور المجموعات (8 مجموعات × 4 فرق) · مواجهة #3",
+      "opponentName": "صقور النيل",
+      "scheduledAt": "الجمعة 2020-01-10 · 02:00 الضهر",
+      "subject": "أرينا برو | مجموعتك (المجموعة أ) وموعد مباراتك في بطولة تجريبية — 30 مشارك وهمي للاختبار",
+      "message": "أرينا برو (ARENA PRO) — إشعار رسمي للمباراة\n━━━━━━━━━━━━━━━━━━━━━━\nمرحباً فرسان القاهرة،\n\nالبطولة: بطولة تجريبية — 30 مشارك وهمي للاختبار (EA Sports FC 27)\nالمجموعة: المجموعة أ\nموعد المباراة: الجمعة 2020-01-10 · 02:00 الضهر\nالمواجهة: دور المجموعات (8 مجموعات × 4 فرق) · مواجهة #3\nالخصم: صقور النيل\nالمكان: صالة أرينا برو — المعادي\nالجائزة: 10,000 ج.م\n\nرابط المنصة: https://ais-dev-f3bdkhyiep632g77otlh7i-146714628882.europe-west2.run.app\nيرجى التواجد قبل موعد المباراة بـ 10 دقائق. بالتوفيق في أرينا برو!",
+      "deliveryStatus": "no_email",
+      "deliveryNote": "لم يُدخل اللاعب بريداً إلكترونياً — تم حفظ التنبيه في حسابه داخل المنصة.",
+      "createdAt": "2026-11-20T11:53:48.615Z"
+    },
+    {
+      "id": "notif-1795175628615-92306",
+      "tournamentId": "t-demo-sandbox-30",
+      "tournamentTitle": "بطولة تجريبية — 30 مشارك وهمي للاختبار",
+      "participantId": "t-demo-sandbox-30-dummy-1795173899472-1",
+      "recipientName": "صقور النيل",
+      "groupName": "المجموعة أ",
+      "matchId": "t-demo-sandbox-30-r0-m3",
+      "matchLabel": "دور المجموعات (8 مجموعات × 4 فرق) · مواجهة #3",
+      "opponentName": "فرسان القاهرة",
+      "scheduledAt": "الجمعة 2020-01-10 · 02:00 الضهر",
+      "subject": "أرينا برو | مجموعتك (المجموعة أ) وموعد مباراتك في بطولة تجريبية — 30 مشارك وهمي للاختبار",
+      "message": "أرينا برو (ARENA PRO) — إشعار رسمي للمباراة\n━━━━━━━━━━━━━━━━━━━━━━\nمرحباً صقور النيل،\n\nالبطولة: بطولة تجريبية — 30 مشارك وهمي للاختبار (EA Sports FC 27)\nالمجموعة: المجموعة أ\nموعد المباراة: الجمعة 2020-01-10 · 02:00 الضهر\nالمواجهة: دور المجموعات (8 مجموعات × 4 فرق) · مواجهة #3\nالخصم: فرسان القاهرة\nالمكان: صالة أرينا برو — المعادي\nالجائزة: 10,000 ج.م\n\nرابط المنصة: https://ais-dev-f3bdkhyiep632g77otlh7i-146714628882.europe-west2.run.app\nيرجى التواجد قبل موعد المباراة بـ 10 دقائق. بالتوفيق في أرينا برو!",
+      "deliveryStatus": "no_email",
+      "deliveryNote": "لم يُدخل اللاعب بريداً إلكترونياً — تم حفظ التنبيه في حسابه داخل المنصة.",
+      "createdAt": "2026-11-20T11:53:48.615Z"
+    },
+    {
+      "id": "notif-1795175628416-y4w3x",
+      "tournamentId": "t-demo-sandbox-30",
+      "tournamentTitle": "بطولة تجريبية — 30 مشارك وهمي للاختبار",
+      "participantId": "t-demo-sandbox-30-dummy-1795173899472-4",
+      "recipientName": "نخبة جدة",
+      "groupName": "المجموعة أ",
+      "matchId": "t-demo-sandbox-30-r0-m2",
+      "matchLabel": "دور المجموعات (8 مجموعات × 4 فرق) · مواجهة #2",
+      "opponentName": "فرسان القاهرة",
+      "scheduledAt": "الجمعة 2026-11-20 · 11:53 صباحاً",
+      "subject": "أرينا برو | مجموعتك (المجموعة أ) وموعد مباراتك في بطولة تجريبية — 30 مشارك وهمي للاختبار",
+      "message": "أرينا برو (ARENA PRO) — إشعار رسمي للمباراة\n━━━━━━━━━━━━━━━━━━━━━━\nمرحباً نخبة جدة،\n\nالبطولة: بطولة تجريبية — 30 مشارك وهمي للاختبار (EA Sports FC 27)\nالمجموعة: المجموعة أ\nموعد المباراة: الجمعة 2026-11-20 · 11:53 صباحاً\nالمواجهة: دور المجموعات (8 مجموعات × 4 فرق) · مواجهة #2\nالخصم: فرسان القاهرة\nالمكان: صالة أرينا برو — المعادي\nالجائزة: 10,000 ج.م\n\nرابط المنصة: https://ais-dev-f3bdkhyiep632g77otlh7i-146714628882.europe-west2.run.app\nيرجى التواجد قبل موعد المباراة بـ 10 دقائق. بالتوفيق في أرينا برو!",
+      "deliveryStatus": "no_email",
+      "deliveryNote": "لم يُدخل اللاعب بريداً إلكترونياً — تم حفظ التنبيه في حسابه داخل المنصة.",
+      "createdAt": "2026-11-20T11:53:48.416Z"
+    },
+    {
+      "id": "notif-1795175628416-2chd5",
+      "tournamentId": "t-demo-sandbox-30",
+      "tournamentTitle": "بطولة تجريبية — 30 مشارك وهمي للاختبار",
+      "participantId": "t-demo-sandbox-30-dummy-1795173899472-3",
+      "recipientName": "فرسان القاهرة",
+      "groupName": "المجموعة أ",
+      "matchId": "t-demo-sandbox-30-r0-m2",
+      "matchLabel": "دور المجموعات (8 مجموعات × 4 فرق) · مواجهة #2",
+      "opponentName": "نخبة جدة",
+      "scheduledAt": "الجمعة 2026-11-20 · 11:53 صباحاً",
+      "subject": "أرينا برو | مجموعتك (المجموعة أ) وموعد مباراتك في بطولة تجريبية — 30 مشارك وهمي للاختبار",
+      "message": "أرينا برو (ARENA PRO) — إشعار رسمي للمباراة\n━━━━━━━━━━━━━━━━━━━━━━\nمرحباً فرسان القاهرة،\n\nالبطولة: بطولة تجريبية — 30 مشارك وهمي للاختبار (EA Sports FC 27)\nالمجموعة: المجموعة أ\nموعد المباراة: الجمعة 2026-11-20 · 11:53 صباحاً\nالمواجهة: دور المجموعات (8 مجموعات × 4 فرق) · مواجهة #2\nالخصم: نخبة جدة\nالمكان: صالة أرينا برو — المعادي\nالجائزة: 10,000 ج.م\n\nرابط المنصة: https://ais-dev-f3bdkhyiep632g77otlh7i-146714628882.europe-west2.run.app\nيرجى التواجد قبل موعد المباراة بـ 10 دقائق. بالتوفيق في أرينا برو!",
+      "deliveryStatus": "no_email",
+      "deliveryNote": "لم يُدخل اللاعب بريداً إلكترونياً — تم حفظ التنبيه في حسابه داخل المنصة.",
+      "createdAt": "2026-11-20T11:53:48.416Z"
+    },
+    {
+      "id": "notif-1795175628372-yfj2c",
+      "tournamentId": "t-demo-sandbox-30",
+      "tournamentTitle": "بطولة تجريبية — 30 مشارك وهمي للاختبار",
+      "participantId": "t-demo-sandbox-30-dummy-1795173899472-2",
+      "recipientName": "ذئاب الرياض",
+      "groupName": "المجموعة أ",
+      "matchId": "t-demo-sandbox-30-r0-m1",
+      "matchLabel": "دور المجموعات (8 مجموعات × 4 فرق) · مواجهة #1",
+      "opponentName": "صقور النيل",
+      "scheduledAt": "الجمعة 2099-05-15 · 02:30 الضهر",
+      "subject": "أرينا برو | مجموعتك (المجموعة أ) وموعد مباراتك في بطولة تجريبية — 30 مشارك وهمي للاختبار",
+      "message": "أرينا برو (ARENA PRO) — إشعار رسمي للمباراة\n━━━━━━━━━━━━━━━━━━━━━━\nمرحباً ذئاب الرياض،\n\nالبطولة: بطولة تجريبية — 30 مشارك وهمي للاختبار (EA Sports FC 27)\nالمجموعة: المجموعة أ\nموعد المباراة: الجمعة 2099-05-15 · 02:30 الضهر\nالمواجهة: دور المجموعات (8 مجموعات × 4 فرق) · مواجهة #1\nالخصم: صقور النيل\nالمكان: صالة أرينا برو — المعادي\nالجائزة: 10,000 ج.م\n\nرابط المنصة: https://ais-dev-f3bdkhyiep632g77otlh7i-146714628882.europe-west2.run.app\nيرجى التواجد قبل موعد المباراة بـ 10 دقائق. بالتوفيق في أرينا برو!",
+      "deliveryStatus": "no_email",
+      "deliveryNote": "لم يُدخل اللاعب بريداً إلكترونياً — تم حفظ التنبيه في حسابه داخل المنصة.",
+      "createdAt": "2026-11-20T11:53:48.372Z"
+    },
+    {
+      "id": "notif-1795175628372-pqvlh",
+      "tournamentId": "t-demo-sandbox-30",
+      "tournamentTitle": "بطولة تجريبية — 30 مشارك وهمي للاختبار",
+      "participantId": "t-demo-sandbox-30-dummy-1795173899472-1",
+      "recipientName": "صقور النيل",
+      "groupName": "المجموعة أ",
+      "matchId": "t-demo-sandbox-30-r0-m1",
+      "matchLabel": "دور المجموعات (8 مجموعات × 4 فرق) · مواجهة #1",
+      "opponentName": "ذئاب الرياض",
+      "scheduledAt": "الجمعة 2099-05-15 · 02:30 الضهر",
+      "subject": "أرينا برو | مجموعتك (المجموعة أ) وموعد مباراتك في بطولة تجريبية — 30 مشارك وهمي للاختبار",
+      "message": "أرينا برو (ARENA PRO) — إشعار رسمي للمباراة\n━━━━━━━━━━━━━━━━━━━━━━\nمرحباً صقور النيل،\n\nالبطولة: بطولة تجريبية — 30 مشارك وهمي للاختبار (EA Sports FC 27)\nالمجموعة: المجموعة أ\nموعد المباراة: الجمعة 2099-05-15 · 02:30 الضهر\nالمواجهة: دور المجموعات (8 مجموعات × 4 فرق) · مواجهة #1\nالخصم: ذئاب الرياض\nالمكان: صالة أرينا برو — المعادي\nالجائزة: 10,000 ج.م\n\nرابط المنصة: https://ais-dev-f3bdkhyiep632g77otlh7i-146714628882.europe-west2.run.app\nيرجى التواجد قبل موعد المباراة بـ 10 دقائق. بالتوفيق في أرينا برو!",
+      "deliveryStatus": "no_email",
+      "deliveryNote": "لم يُدخل اللاعب بريداً إلكترونياً — تم حفظ التنبيه في حسابه داخل المنصة.",
+      "createdAt": "2026-11-20T11:53:48.372Z"
+    }
+  ],
+  "profile": {
+    "id": "Hc1SaTExZnQpFH4CrbKpxhafQTg2",
+    "playerCode": "ARENA-3026",
+    "displayName": "yassin saeed",
+    "handle": "oiabc1234tafr moks",
+    "city": "القاهرة",
+    "whatsappNumber": "",
+    "phoneOrDiscord": "Player#4092",
+    "gameIds": {
+      "pool8": "",
+      "fc27": ""
+    },
+    "registeredTournamentIds": [],
+    "email": "saeedyassin313@gmail.com",
+    "onboardingCompleted": true,
+    "photoURL": "https://lh3.googleusercontent.com/a/ACg8ocLOoe-OpCIF-II7kQscJBWirJxIcka_MkRSj-dyiRsxspYVGQ=s96-c",
+    "isGoogleSignedIn": true,
+    "lastActiveAt": "2026-11-19T12:21:59.723Z"
+  },
+  "team": {
+    "id": "team-nisoor",
+    "name": "نسور أرينا برو",
+    "tag": "PRO",
+    "inviteCode": "ARENA-PRO-2026",
+    "captainName": "yassin saeed",
+    "members": []
+  },
+  "adminHandles": [
+    "saeedyassin313@gmail.com",
+    "arenapro185@gmail.com"
+  ],
+  "profilesByUid": {
+    "Hc1SaTExZnQpFH4CrbKpxhafQTg2": {
+      "id": "Hc1SaTExZnQpFH4CrbKpxhafQTg2",
+      "playerCode": "ARENA-3026",
+      "displayName": "yassin saeed",
+      "handle": "oiabc1234tafr moks",
+      "city": "القاهرة",
+      "phoneOrDiscord": "Player#4092",
+      "gameIds": {
+        "pool8": "",
+        "fc27": ""
+      },
+      "registeredTournamentIds": [],
+      "email": "saeedyassin313@gmail.com",
+      "onboardingCompleted": true,
+      "photoURL": "https://lh3.googleusercontent.com/a/ACg8ocLOoe-OpCIF-II7kQscJBWirJxIcka_MkRSj-dyiRsxspYVGQ=s96-c",
+      "isGoogleSignedIn": true,
+      "lastActiveAt": "2026-11-20T12:07:59.149Z"
+    },
+    "K4tujfgi9jRYpY6CY5mZf7e1TLH3": {
+      "id": "K4tujfgi9jRYpY6CY5mZf7e1TLH3",
+      "playerCode": "ARENA-3026",
+      "displayName": "yassin saeed mohamed",
+      "handle": "saeedyassin313",
+      "city": "القاهرة",
+      "whatsappNumber": "",
+      "phoneOrDiscord": "",
+      "gameIds": {
+        "pool8": "",
+        "fc27": ""
+      },
+      "registeredTournamentIds": []
+    }
+  },
+  "activityByHandle": {
+    "oiabc1234tafr moks": "2026-11-23T12:46:52.756Z",
+    "friend_presence_e2e": "2026-11-19T11:34:44.391Z",
+    "saeedyassin313": "2026-11-23T12:26:58.428Z"
+  },
+  "friendMessages": [],
+  "friendRequests": [],
+  "friendsByUid": {},
+  "emailServiceConfigured": false
+}

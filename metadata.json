@@ -1,0 +1,6 @@
+{
+  "name": "ميدان البطولات — منصة بطولات ألعاب الموبايل",
+  "description": "منصة عربية متكاملة لتنظيم بطولات ألعاب الموبايل، جداول المواجهات الآلية، ملفات اللاعبين والكلانات، وحجز فعاليات المعارض.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

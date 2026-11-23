@@ -1,0 +1,851 @@
+{
+  "entities": {
+    "UserProfile": {
+      "title": "UserProfile",
+      "description": "Authenticated player profile linked to Google Sign-In with onboarding status, playerCode, and Gmail.",
+      "type": "object",
+      "properties": {
+        "uid": {
+          "type": "string",
+          "description": "Firebase Auth UID of the player.",
+          "maxLength": 128,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "displayName": {
+          "type": "string",
+          "description": "Player display name.",
+          "minLength": 1,
+          "maxLength": 80
+        },
+        "handle": {
+          "type": "string",
+          "description": "Player username or tag.",
+          "minLength": 1,
+          "maxLength": 50
+        },
+        "playerCode": {
+          "type": "string",
+          "description": "Unique Arena Pro player code (e.g. ARENA-1234).",
+          "maxLength": 32
+        },
+        "email": {
+          "type": "string",
+          "format": "email",
+          "description": "Player Gmail or email for receiving match schedules and groups.",
+          "maxLength": 120,
+          "pattern": "^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$"
+        },
+        "whatsappNumber": {
+          "type": "string",
+          "description": "Player WhatsApp contact number.",
+          "maxLength": 32
+        },
+        "city": {
+          "type": "string",
+          "description": "Player city.",
+          "maxLength": 60
+        },
+        "onboardingCompleted": {
+          "type": "boolean",
+          "description": "True once the player completes first-time username and Gmail onboarding."
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Server timestamp of last update."
+        }
+      },
+      "required": ["uid", "displayName", "handle", "updatedAt"]
+    },
+    "PlayerDirectoryEntry": {
+      "title": "PlayerDirectoryEntry",
+      "description": "Deterministic non-PII lookup index keyed by normalized handle or playerCode so players can find each other across deploys.",
+      "type": "object",
+      "properties": {
+        "lookupKey": {
+          "type": "string",
+          "description": "Deterministic lookup key (h_<handle> or c_<code_slug>).",
+          "maxLength": 128,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "uid": {
+          "type": "string",
+          "description": "Owner Firebase Auth UID.",
+          "maxLength": 128,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "displayName": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 80
+        },
+        "handle": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 50
+        },
+        "playerCode": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 32
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "required": ["lookupKey", "uid", "displayName", "handle", "playerCode", "updatedAt"]
+    },
+    "FriendEdge": {
+      "title": "FriendEdge",
+      "description": "Confirmed friend record stored privately under each user's friends subcollection.",
+      "type": "object",
+      "properties": {
+        "uid": {
+          "type": "string",
+          "maxLength": 128,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "handle": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 50
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 80
+        },
+        "role": {
+          "type": "string",
+          "maxLength": 40
+        },
+        "playerCode": {
+          "type": "string",
+          "maxLength": 32
+        },
+        "requestId": {
+          "type": "string",
+          "maxLength": 128
+        },
+        "addedAt": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "required": ["uid", "handle", "name", "addedAt"]
+    },
+    "FriendRequestDoc": {
+      "title": "FriendRequestDoc",
+      "description": "Persistent friend request between two verified players.",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "maxLength": 128,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "fromUid": {
+          "type": "string",
+          "maxLength": 128,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "fromHandle": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 50
+        },
+        "fromName": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 80
+        },
+        "fromPlayerCode": {
+          "type": "string",
+          "maxLength": 32
+        },
+        "toUid": {
+          "type": "string",
+          "maxLength": 128,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "toHandle": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 50
+        },
+        "toName": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 80
+        },
+        "toPlayerCode": {
+          "type": "string",
+          "maxLength": 32
+        },
+        "role": {
+          "type": "string",
+          "maxLength": 40
+        },
+        "status": {
+          "type": "string",
+          "enum": ["pending", "accepted", "declined"]
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "required": [
+        "id",
+        "fromUid",
+        "fromHandle",
+        "fromName",
+        "toUid",
+        "toHandle",
+        "toName",
+        "status",
+        "createdAt",
+        "updatedAt"
+      ]
+    },
+    "AdminRecord": {
+      "title": "AdminRecord",
+      "description": "Authorized platform administrator UID record.",
+      "type": "object",
+      "properties": {
+        "uid": {
+          "type": "string",
+          "maxLength": 128,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "handle": {
+          "type": "string",
+          "maxLength": 80
+        },
+        "grantedBy": {
+          "type": "string",
+          "maxLength": 128
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "required": ["uid", "createdAt", "updatedAt"]
+    },
+    "AdminEmailDoc": {
+      "title": "AdminEmailDoc",
+      "description": "Authorized platform administrator Gmail record keyed deterministically by sanitized email.",
+      "type": "object",
+      "properties": {
+        "emailKey": {
+          "type": "string",
+          "maxLength": 128,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "email": {
+          "type": "string",
+          "format": "email",
+          "maxLength": 120,
+          "pattern": "^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$"
+        },
+        "addedByUid": {
+          "type": "string",
+          "maxLength": 128,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "addedByEmail": {
+          "type": "string",
+          "maxLength": 120
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "required": ["emailKey", "email", "addedByUid", "createdAt", "updatedAt"]
+    },
+    "AdminHandlesConfig": {
+      "title": "AdminHandlesConfig",
+      "description": "Persistent list of authorized admin handles and emails managed by Admin.",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "maxLength": 128,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "handles": {
+          "type": "array",
+          "description": "List of authorized admin handles or emails (max 50)."
+        },
+        "updatedByUid": {
+          "type": "string",
+          "maxLength": 128,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "required": ["id", "handles", "updatedByUid", "updatedAt"]
+    },
+    "GameConfig": {
+      "title": "GameConfig",
+      "description": "Official supported game metadata and Admin-defined rules highlights (non-PII).",
+      "type": "object",
+      "properties": {
+        "slug": {
+          "type": "string",
+          "enum": ["pool8", "fc27", "custom"]
+        },
+        "nameAr": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 80
+        },
+        "nameEn": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 80
+        },
+        "modeLabel": {
+          "type": "string",
+          "maxLength": 120
+        },
+        "scoringSystem": {
+          "type": "string",
+          "maxLength": 160
+        },
+        "teamSize": {
+          "type": "number"
+        },
+        "imageUrl": {
+          "type": "string",
+          "maxLength": 400
+        },
+        "activePlayersCount": {
+          "type": "number"
+        },
+        "summary": {
+          "type": "string",
+          "maxLength": 500
+        },
+        "rulesHighlights": {
+          "type": "array"
+        },
+        "updatedAtMs": {
+          "type": "number"
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "required": ["slug", "nameAr", "nameEn", "rulesHighlights", "updatedAtMs", "updatedAt"]
+    },
+    "TournamentDoc": {
+      "title": "TournamentDoc",
+      "description": "Persistent non-PII tournament state, rules, groups, and bracket rounds.",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "maxLength": 128,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 160
+        },
+        "gameSlug": {
+          "type": "string",
+          "enum": ["pool8", "fc27", "custom"]
+        },
+        "customGameName": {
+          "type": "string",
+          "maxLength": 120
+        },
+        "modeTag": {
+          "type": "string",
+          "enum": ["1v1", "2v2", "4v4"]
+        },
+        "formatLabel": {
+          "type": "string",
+          "maxLength": 120
+        },
+        "venueName": {
+          "type": "string",
+          "maxLength": 160
+        },
+        "prizePool": {
+          "type": "string",
+          "maxLength": 120
+        },
+        "maxSlots": {
+          "type": "number"
+        },
+        "registeredCount": {
+          "type": "number"
+        },
+        "registrationOpen": {
+          "type": "boolean"
+        },
+        "resultsEntryOpen": {
+          "type": "boolean"
+        },
+        "lastAiMatchupSummary": {
+          "type": "string",
+          "maxLength": 1000
+        },
+        "status": {
+          "type": "string",
+          "enum": ["open", "ongoing", "completed"]
+        },
+        "isFeatured": {
+          "type": "boolean"
+        },
+        "entryType": {
+          "type": "string",
+          "enum": ["solo", "team"]
+        },
+        "rules": {
+          "type": "array"
+        },
+        "winnerName": {
+          "type": "string",
+          "maxLength": 120
+        },
+        "rounds": {
+          "type": "array"
+        },
+        "updatedAtMs": {
+          "type": "number"
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "required": [
+        "id",
+        "title",
+        "gameSlug",
+        "modeTag",
+        "maxSlots",
+        "registeredCount",
+        "registrationOpen",
+        "status",
+        "isFeatured",
+        "entryType",
+        "rules",
+        "rounds",
+        "updatedAtMs",
+        "createdAt",
+        "updatedAt"
+      ]
+    },
+    "TournamentRegistrationDoc": {
+      "title": "TournamentRegistrationDoc",
+      "description": "Non-PII player/team registration record inside a tournament.",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "maxLength": 128,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "tournamentId": {
+          "type": "string",
+          "maxLength": 128,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "registeredByUid": {
+          "type": "string",
+          "maxLength": 128,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "participantId": {
+          "type": "string",
+          "maxLength": 128
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 120
+        },
+        "teamName": {
+          "type": "string",
+          "maxLength": 120
+        },
+        "username": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 50
+        },
+        "teammateUsername": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "rosterMembers": {
+          "type": "array"
+        },
+        "checkedInHandles": {
+          "type": "array",
+          "description": "Normalized handles of roster players checked in at venue."
+        },
+        "groupName": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 60
+        },
+        "seed": {
+          "type": "number"
+        },
+        "gameId": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "isTeam": {
+          "type": "boolean"
+        },
+        "assignedSeatIndex": {
+          "type": "number"
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "required": [
+        "id",
+        "tournamentId",
+        "registeredByUid",
+        "participantId",
+        "name",
+        "username",
+        "groupName",
+        "seed",
+        "isTeam",
+        "createdAt",
+        "updatedAt"
+      ]
+    },
+    "LiveFeedDoc": {
+      "title": "LiveFeedDoc",
+      "description": "Completed match result item shown on the public broadcast live feed (non-PII).",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "maxLength": 128,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "tournamentId": {
+          "type": "string",
+          "maxLength": 128,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "tournamentTitle": {
+          "type": "string",
+          "maxLength": 160
+        },
+        "gameName": {
+          "type": "string",
+          "maxLength": 100
+        },
+        "roundName": {
+          "type": "string",
+          "maxLength": 100
+        },
+        "matchNumber": {
+          "type": "number"
+        },
+        "groupName": {
+          "type": "string",
+          "maxLength": 60
+        },
+        "participantAName": {
+          "type": "string",
+          "maxLength": 120
+        },
+        "participantBName": {
+          "type": "string",
+          "maxLength": 120
+        },
+        "scoreA": {
+          "type": "number"
+        },
+        "scoreB": {
+          "type": "number"
+        },
+        "winnerName": {
+          "type": "string",
+          "maxLength": 120
+        },
+        "approvedAt": {
+          "type": "string",
+          "maxLength": 60
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "required": [
+        "id",
+        "tournamentId",
+        "tournamentTitle",
+        "gameName",
+        "roundName",
+        "matchNumber",
+        "groupName",
+        "participantAName",
+        "participantBName",
+        "scoreA",
+        "scoreB",
+        "winnerName",
+        "approvedAt",
+        "updatedAt"
+      ]
+    },
+    "SubmissionDoc": {
+      "title": "SubmissionDoc",
+      "description": "Match screenshot result submission awaiting Admin review.",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "maxLength": 128,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "tournamentId": {
+          "type": "string",
+          "maxLength": 128,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "tournamentTitle": {
+          "type": "string",
+          "maxLength": 160
+        },
+        "matchId": {
+          "type": "string",
+          "maxLength": 128
+        },
+        "matchLabel": {
+          "type": "string",
+          "maxLength": 240
+        },
+        "submittedBy": {
+          "type": "string",
+          "maxLength": 80
+        },
+        "submittedByUid": {
+          "type": "string",
+          "maxLength": 128,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "claimedWinnerId": {
+          "type": "string",
+          "maxLength": 128
+        },
+        "claimedWinnerName": {
+          "type": "string",
+          "maxLength": 120
+        },
+        "scoreA": {
+          "type": "number"
+        },
+        "scoreB": {
+          "type": "number"
+        },
+        "screenshotUrl": {
+          "type": "string",
+          "maxLength": 250000
+        },
+        "note": {
+          "type": "string",
+          "maxLength": 400
+        },
+        "status": {
+          "type": "string",
+          "enum": ["pending", "approved", "rejected"]
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "required": [
+        "id",
+        "tournamentId",
+        "matchId",
+        "submittedBy",
+        "submittedByUid",
+        "claimedWinnerId",
+        "claimedWinnerName",
+        "scoreA",
+        "scoreB",
+        "screenshotUrl",
+        "status",
+        "createdAt",
+        "updatedAt"
+      ]
+    },
+    "ChatMessageDoc": {
+      "title": "ChatMessageDoc",
+      "description": "Real-time 1-on-1 or team-group chat message persisted in Firestore.",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "maxLength": 128,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "clientMsgId": {
+          "type": "string",
+          "maxLength": 128
+        },
+        "channelId": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 260
+        },
+        "senderUid": {
+          "type": "string",
+          "maxLength": 128,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "senderHandle": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 50
+        },
+        "senderName": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 80
+        },
+        "recipientUid": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 128
+        },
+        "recipientHandle": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "text": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 1000
+        },
+        "readBy": {
+          "type": "array"
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "required": [
+        "id",
+        "channelId",
+        "senderUid",
+        "senderHandle",
+        "senderName",
+        "recipientUid",
+        "recipientHandle",
+        "text",
+        "readBy",
+        "createdAt",
+        "updatedAt"
+      ]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": { "$ref": "#/entities/UserProfile" },
+      "description": "Private player profile documents indexed by Firebase Auth UID."
+    },
+    "/users/{userId}/friends/{friendUid}": {
+      "schema": { "$ref": "#/entities/FriendEdge" },
+      "description": "Confirmed friend connections owned by each player."
+    },
+    "/playerDirectory/{lookupKey}": {
+      "schema": { "$ref": "#/entities/PlayerDirectoryEntry" },
+      "description": "Non-PII exact-match directory lookup entries keyed by normalized handle or player code."
+    },
+    "/friendRequests/{requestId}": {
+      "schema": { "$ref": "#/entities/FriendRequestDoc" },
+      "description": "Persistent friend requests readable and actionable only by sender and recipient."
+    },
+    "/admins/{userId}": {
+      "schema": { "$ref": "#/entities/AdminRecord" },
+      "description": "Authorized admin UID records."
+    },
+    "/adminEmails/{emailKey}": {
+      "schema": { "$ref": "#/entities/AdminEmailDoc" },
+      "description": "Authorized admin Gmail records added by platform owner/admins."
+    },
+    "/platformConfig/{configId}": {
+      "schema": { "$ref": "#/entities/AdminHandlesConfig" },
+      "description": "Persistent admin handle list synchronized across deploys."
+    },
+    "/games/{gameSlug}": {
+      "schema": { "$ref": "#/entities/GameConfig" },
+      "description": "Persistent game configurations and Admin-defined rules."
+    },
+    "/tournaments/{tournamentId}": {
+      "schema": { "$ref": "#/entities/TournamentDoc" },
+      "description": "Persistent non-PII tournaments, groups, and bracket rounds."
+    },
+    "/tournaments/{tournamentId}/registrations/{registrationId}": {
+      "schema": { "$ref": "#/entities/TournamentRegistrationDoc" },
+      "description": "Verified player/team tournament registrations persisted across deploys."
+    },
+    "/liveFeed/{feedId}": {
+      "schema": { "$ref": "#/entities/LiveFeedDoc" },
+      "description": "Public completed match feed results."
+    },
+    "/submissions/{submissionId}": {
+      "schema": { "$ref": "#/entities/SubmissionDoc" },
+      "description": "Match result screenshot submissions readable only by submitter or Admin."
+    },
+    "/chatMessages/{messageId}": {
+      "schema": { "$ref": "#/entities/ChatMessageDoc" },
+      "description": "Real-time direct and team chat messages synced via Firestore."
+    }
+  }
+}
